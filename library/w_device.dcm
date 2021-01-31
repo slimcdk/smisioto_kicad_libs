@@ -32,6 +32,46 @@ D Diode simple
 K DEV DIODE
 $ENDCMP
 #
+$CMP DIP-10mu
+D DIP-10 multi-unit
+$ENDCMP
+#
+$CMP DIP-12mu
+D DIP-12 multi-unit
+$ENDCMP
+#
+$CMP DIP-2mu
+D DIP-2 multi-unit
+$ENDCMP
+#
+$CMP DIP-3mu
+D DIP-3 multi-unit
+$ENDCMP
+#
+$CMP DIP-4mu
+D DIP-4 multi-unit
+$ENDCMP
+#
+$CMP DIP-5mu
+D DIP-5 multi-unit
+$ENDCMP
+#
+$CMP DIP-6mu
+D DIP-6 multi-unit
+$ENDCMP
+#
+$CMP DIP-7mu
+D DIP-7 multi-unit
+$ENDCMP
+#
+$CMP DIP-8mu
+D DIP-8 multi-unit
+$ENDCMP
+#
+$CMP DIP-9mu
+D DIP-9 multi-unit
+$ENDCMP
+#
 $CMP FUSE
 D Fuse, generic
 $ENDCMP

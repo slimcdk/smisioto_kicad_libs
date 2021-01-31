@@ -8,6 +8,14 @@ $CMP 7SEGMENTS
 D 7segments display, common anode
 $ENDCMP
 #
+$CMP ACPL-K342
+D 2.5 Amp Output Current IGBT Gate Drive Optocoupler with Active Miller Clamp, Rail-to-Rail Output Voltage and UVLO in Stretched SO8
+$ENDCMP
+#
+$CMP ACPL-W61L
+D Ultra Low Power 10MBd Digital CMOS Optocoupler
+$ENDCMP
+#
 $CMP AC_OPTO
 D AC Input Optocoupler
 $ENDCMP
@@ -23,6 +31,26 @@ $ENDCMP
 $CMP CPC1117N
 D Normally closed Solid State Relay
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Fotoisolatori/AC/CLA_CPC1117N.pdf
+$ENDCMP
+#
+$CMP Cree_MC-E
+D Cree MC-E RGBW power LED
+$ENDCMP
+#
+$CMP Cree_XHP50
+D Cree XHP-50 power LED
+$ENDCMP
+#
+$CMP Edison_Federal_5050
+D Edison Federal 5050 RGBW power LED
+$ENDCMP
+#
+$CMP H11N1
+D 6-Pin DIP High Speed Logic Optocouplers
+$ENDCMP
+#
+$CMP HDSP-Uxxx
+D common anode 7seg display, AVAGO HDSP series
 $ENDCMP
 #
 $CMP KB814
@@ -41,14 +69,34 @@ $CMP KB844
 D AC Optocoupler
 $ENDCMP
 #
+$CMP NOA1212
+D Ambient Light Sensor with Dark Current Compensation
+$ENDCMP
+#
 $CMP PLCC6_LED
 D PLCC6 LED
 K DEV DIODE LED PLCC6
 $ENDCMP
 #
+$CMP Power_LED
+D LED with heatsink pin
+$ENDCMP
+#
 $CMP RGB_LED
 D RGB LED
 K DEV DIODE LED RGB
+$ENDCMP
+#
+$CMP RGB_Power_LED
+D RGB LED with heatsink pin
+$ENDCMP
+#
+$CMP SA50-xxxxxx
+D 5" 7seg display, Kingbright SA50 series
+$ENDCMP
+#
+$CMP SAxx-xxxxxx
+D common anode 7seg display, Kingbright SA series
 $ENDCMP
 #
 $CMP SFH5712
@@ -59,6 +107,10 @@ $ENDCMP
 $CMP Seoul_SFT825N
 D RGB LED
 K DEV DIODE LED RGB
+$ENDCMP
+#
+$CMP Seoul_Z7
+D Seoul Z7 RGBW power LED
 $ENDCMP
 #
 $CMP TKS-363H
@@ -83,6 +135,10 @@ $ENDCMP
 #
 $CMP TLP624-2
 D DC Optocoupler
+$ENDCMP
+#
+$CMP acda02
+D dual common anode 7seg display, Kingbright ACDA02 series
 $ENDCMP
 #
 #End Doc Library

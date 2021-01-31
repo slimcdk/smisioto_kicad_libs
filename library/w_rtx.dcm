@@ -10,6 +10,30 @@ D Anaren A8520E24A91 PurePath Wireless module
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/Anaren/A8520E24A91_Users_Manual.pdf
 $ENDCMP
 #
+$CMP Anaren_A1101R04C
+D Anaren A1101R04C RF module
+$ENDCMP
+#
+$CMP Anaren_A1101R08
+D Anaren A1101R08x RF module
+$ENDCMP
+#
+$CMP Anaren_A1101R09
+D Anaren A1101R09x RF module
+$ENDCMP
+#
+$CMP Anaren_A110LR09
+D Anaren A110LR09x RF module
+$ENDCMP
+#
+$CMP Anaren_A2500R24
+D Anaren A2500R24 RF module
+$ENDCMP
+#
+$CMP Casambi_CBM001
+D Casambi CBM001 Bluetooth module
+$ENDCMP
+#
 $CMP FT232BL
 D USB UART
 F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/FTDI_FT232BL.pdf
@@ -186,6 +210,10 @@ D RFM22B Universal ISM band FSK transceiver
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/HOPE_RFM22B.pdf
 $ENDCMP
 #
+$CMP Roving_RN-131
+D Roving Network RN-131 802.11 b/g WiFi module
+$ENDCMP
+#
 $CMP Roving_RN-42
 D Roving Bluetooth module
 F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/ROVING_RN-42.pdf
@@ -206,6 +234,10 @@ D Single UART with I2C-bus/SPI interface, 64-byte FIFOs, IrDA SIR
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/NXP_SC16IS7x0.pdf
 $ENDCMP
 #
+$CMP SI4704-GM
+D Broadcast FM radio receiver for consumer electronics
+$ENDCMP
+#
 $CMP SKY12347
 D DC-3.0 GHz Six-Bit Digital Attenuator with Serial or Parallel Driver (0.5 dB LSB)
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Conversione/SKY_SKY12347.pdf
@@ -221,6 +253,30 @@ D 3.0V to 5.5V RS-232 Transceivers with Auto On-Line Plus
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/EXAR_SP322xE.pdf
 $ENDCMP
 #
+$CMP TXB0104-D
+D 4-bit bidirectional Voltage-Level translator with automatic direction sensing and 15kV ESD protection
+$ENDCMP
+#
+$CMP TXB0104-GXU
+D 4-bit bidirectional Voltage-Level translator with automatic direction sensing and 15kV ESD protection
+$ENDCMP
+#
+$CMP TXB0104-PW
+D 4-bit bidirectional Voltage-Level translator with automatic direction sensing and 15kV ESD protection
+$ENDCMP
+#
+$CMP TXB0104-RGY
+D 4-bit bidirectional Voltage-Level translator with automatic direction sensing and 15kV ESD protection
+$ENDCMP
+#
+$CMP TXB0104-RUT
+D 4-bit bidirectional Voltage-Level translator with automatic direction sensing and 15kV ESD protection
+$ENDCMP
+#
+$CMP TXB0104-YZT
+D 4-bit bidirectional Voltage-Level translator with automatic direction sensing and 15kV ESD protection
+$ENDCMP
+#
 $CMP TXS0102-BGA
 D 2-bit bidirectional Voltage-Level translator for Open-Drain and Push-Pull applications
 F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Drivers/TI_TXS0102.pdf
@@ -234,6 +290,22 @@ $ENDCMP
 $CMP TXS0102-QFN
 D 2-bit bidirectional Voltage-Level translator for Open-Drain and Push-Pull applications
 F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Drivers/TI_TXS0102.pdf
+$ENDCMP
+#
+$CMP TXS0108-BGA
+D 8-bit bidir. Voltage-Level translator for Open-Drain and Push-Pull, BGA package
+$ENDCMP
+#
+$CMP TXS0108-DIL
+D 8-bit bidir. Voltage-Level translator for Open-Drain and Push-Pull, DIL package
+$ENDCMP
+#
+$CMP TXS0108-QFN
+D 8-bit bidir. Voltage-Level translator for Open-Drain and Push-Pull, QFN package
+$ENDCMP
+#
+$CMP Telit_GL865
+D Telit GL865 GSM/GPRS module
 $ENDCMP
 #
 $CMP W5500
@@ -259,6 +331,14 @@ $ENDCMP
 $CMP XR20M1170-24TSSOP
 D I2C/SPI UART WITH 64-byte FIFO
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/EXAR_XR20M1170.pdf
+$ENDCMP
+#
+$CMP CY7C65621
+D EZ-USB HX2LP Lite Low Power USB 2.0 Hub Controller Family
+$ENDCMP
+#
+$CMP CY7C65631
+D EZ-USB HX2LP Lite Low Power USB 2.0 Hub Controller Family
 $ENDCMP
 #
 #End Doc Library

@@ -44,8 +44,12 @@ D Coto 9002 series relay
 K relay 9002
 $ENDCMP
 #
+$CMP RELAY_GQ
+D 2 Form C relay, Panasonic GQ
+$ENDCMP
+#
 $CMP RELAY_HB
-D HB series relay
+D National HB series relay
 K relay HB
 $ENDCMP
 #
@@ -57,6 +61,10 @@ $ENDCMP
 $CMP RELAY_HJR-3FF_Z
 D HJR-3FF Form C relay
 K relay HJR-3FF
+$ENDCMP
+#
+$CMP RELAY_JS-K
+D 1 Form C relay, Fujitsu JS
 $ENDCMP
 #
 $CMP RELAY_PE
@@ -82,8 +90,20 @@ D Relay, single dev contact
 $ENDCMP
 #
 $CMP RELAY_SY
-D SY series relay
+D Takamisawa SY series relay
 K relay SY
+$ENDCMP
+#
+$CMP RELAY_T9AS1x1
+D 1 Form A relay, TE T9AS1x1
+$ENDCMP
+#
+$CMP RELAY_T9AS2x1
+D 1 Form B relay, TE T9AS2x1
+$ENDCMP
+#
+$CMP RELAY_T9AS5x1
+D 1 Form C relay, TE T9AS5x1
 $ENDCMP
 #
 $CMP RELAY_V23042
@@ -101,9 +121,21 @@ D V23101-D0 relay
 K relay V23101-D0
 $ENDCMP
 #
+$CMP RELAY_V23101-D0-B
+D 1 Form B relay, TE V23101-D0-xB
+$ENDCMP
+#
 $CMP RELAY_V23101-D1
 D V23101-D1 relay
 K relay V23101-D1
+$ENDCMP
+#
+$CMP RELAY_V23101-D1-B
+D 1 Form C relay, TE V23101-D1-xB
+$ENDCMP
+#
+$CMP fotek_SSR
+D Fotek SSR type solid state relay
 $ENDCMP
 #
 #End Doc Library

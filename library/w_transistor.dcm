@@ -5,8 +5,16 @@ D BC807DS
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Discreti/Transistor/BJT/PNP/NXP_BC807DS.pdf
 $ENDCMP
 #
+$CMP CSD18532Q5B
+D N-channel 60V Power MOSFET, Q5B
+$ENDCMP
+#
 $CMP FDC6305N
-D FDC6305N
+D N bi-mosfet
+$ENDCMP
+#
+$CMP FDS8447
+D N-channel Power MOSFET, SO-8
 $ENDCMP
 #
 $CMP FET_N
@@ -63,6 +71,10 @@ $ENDCMP
 #
 $CMP FET_P_SGD
 D P channel JFET, SGD footprint
+$ENDCMP
+#
+$CMP IGBT+FWD
+D IGBT with diode
 $ENDCMP
 #
 $CMP MOS_N
@@ -199,6 +211,10 @@ $ENDCMP
 $CMP SCR
 D SCR
 K SCR
+$ENDCMP
+#
+$CMP SI1926DL
+D Dual N-channel 60V MOSFET, SC70-6
 $ENDCMP
 #
 $CMP SI3440DV

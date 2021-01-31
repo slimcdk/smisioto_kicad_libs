@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ACPL7800
+D Isolation amplifier
+$ENDCMP
+#
 $CMP AD5320-MSOP
 D 12 bit RRO DAC, MSOP-8
 K DAC AD5320
@@ -18,6 +22,22 @@ $ENDCMP
 $CMP ADP3110A
 D Half-Bridge Mosfet driver
 F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Drivers/ON_ADP3110A.pdf
+$ENDCMP
+#
+$CMP ADR36x
+D Low power, low noise voltage references with sink/source capability
+$ENDCMP
+#
+$CMP ADXL345-EP
+D 3-Axis, ±2 g/±4 g/±8 g/±16 g Digital Accelerometer
+$ENDCMP
+#
+$CMP AOZ1280
+D EZBuck 1.2A Simple Buck Regulator
+$ENDCMP
+#
+$CMP AP5100
+D 1.2A Step-Down converter with 1.4MHz switching frequency
 $ENDCMP
 #
 $CMP AP7312-DFN
@@ -53,6 +73,10 @@ $CMP CAT4201
 D 350mA High Efficiency Step Down LED Driver
 $ENDCMP
 #
+$CMP CS434x
+D 10-pin, 24-Bit, 192 kHz Stereo D/A Converter
+$ENDCMP
+#
 $CMP CS9236L
 D Single chip Wavetable music synthesizer
 K CS9236
@@ -68,6 +92,18 @@ $ENDCMP
 $CMP FAN7382
 D Half-Bridge Mosfet driver, HI-side and LO-side
 F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Drivers/FCD_FAN7382.pdf
+$ENDCMP
+#
+$CMP ICM7555
+D General purpose CMOS timer
+$ENDCMP
+#
+$CMP INA121
+D FET-Input, low power instrumentation amplifier
+$ENDCMP
+#
+$CMP IQS133
+D Minimalist 3 Channel Capacitive Sensor with compensation for sensitivity reducing objects
 $ENDCMP
 #
 $CMP IR2183
@@ -106,6 +142,22 @@ D Current controller for stepping motor
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Drivers/ST_L6506.pdf
 $ENDCMP
 #
+$CMP LFxx-DPAK
+D LFxx 500mA very low drop Linear Regulator, D-PAK package
+$ENDCMP
+#
+$CMP LFxx-PPAK
+D LFxx 500mA very low drop Linear Regulator, PPAK package
+$ENDCMP
+#
+$CMP LFxx-Pentawatt
+D LFxx 500mA very low drop Linear Regulator, Pentawatt package
+$ENDCMP
+#
+$CMP LFxx-TO220
+D LFxx 500mA very low drop Linear Regulator, TO220 package
+$ENDCMP
+#
 $CMP LH0063
 D Ultra Fast Buffer
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Drivers/NSC_LH0033-0063.pdf
@@ -129,6 +181,14 @@ $ENDCMP
 $CMP LM1578A
 D LM1578A/LM2578A/LM3578A Switching Regulator
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Switcher/NSC_LM1578-3578.pdf
+$ENDCMP
+#
+$CMP LM22674
+D 4.5V to 42V, 500mA Simple Switcher buck converter with precision enable
+$ENDCMP
+#
+$CMP LM2731
+D 0.6/1.6 MHz Boost Converter With 22V Internal FET Switch in SOT23
 $ENDCMP
 #
 $CMP LM2734
@@ -257,6 +317,10 @@ D 1A Buck-Boost DC/DC converter with programmable input current limit
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Switcher/LT_LTC3127.pdf
 $ENDCMP
 #
+$CMP LTC4267-DFN
+D Power over Ethernet IEEE 802.3af PD interface with integrated switching regulator, DFN package
+$ENDCMP
+#
 $CMP LTC4267-SSOP
 D Power over Ethernet IEEE 802.3af PD interface with integrated switching regulator
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Switcher/LTC_LTC4267.pdf
@@ -287,6 +351,14 @@ D 5A step up/down/inverting switching regulator
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Switcher/ON_MC34167.pdf
 $ENDCMP
 #
+$CMP MCAxxDxxD
+D Dual output DC/DC converters, DIP package
+$ENDCMP
+#
+$CMP MCAxxDxxS
+D Dual output DC/DC converters, SIP package
+$ENDCMP
+#
 $CMP MCP1702_SOT
 D MCP1702 250mA Low Dropout Linear Regulator, SOT package
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Regolatori/MCIP_MCP1702.pdf
@@ -313,6 +385,10 @@ $CMP MCP3008
 D 2.7V 8 Channel 10-Bit A/D Converter with SPI Serial Interface
 K ADC MCP3008
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Conversione/AD-DA/MCIP_MCP3004-3008.pdf
+$ENDCMP
+#
+$CMP MCP48x2
+D 8/10/12-Bit Dual Voltage Output DAC with Internal VREF and SPI Interface
 $ENDCMP
 #
 $CMP MCP601-DIL
@@ -365,6 +441,14 @@ D 9-axis MotionTracking device
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Sensori/MPU-9150.pdf
 $ENDCMP
 #
+$CMP NCP1027
+D High voltage switching regulator for offline SMPS
+$ENDCMP
+#
+$CMP NCP3170
+D Buck regulator, switching, PWM, 3.0 A
+$ENDCMP
+#
 $CMP NE555
 D NE555 timer
 F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Clock/ST_NE555.pdf
@@ -386,7 +470,11 @@ F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/
 $ENDCMP
 #
 $CMP OPA2227
-D High Precision Low Noise Dual Operational Amplifiers
+D High precision low noise dual operational amplifiers
+$ENDCMP
+#
+$CMP OPA548
+D High-voltage, high-current, wide-output-voltage-swing power operational amplfier
 $ENDCMP
 #
 $CMP PT4115-89
@@ -395,6 +483,10 @@ $ENDCMP
 #
 $CMP PT4115-SO
 D 30V 1.2A Step-Down High Brightness LED Driver with 5000:1 Dimming, ESOP-8 package
+$ENDCMP
+#
+$CMP REF31xx
+D 20-ppm/°C max, 100-µA, 3-pin SOT-23 series voltage reference
 $ENDCMP
 #
 $CMP SAM2195
@@ -406,6 +498,14 @@ $ENDCMP
 $CMP SI7020-A10
 D I2C Humidity and Temperature sensor
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Sensori/Temperatura/SIL_Si7020-A10.pdf
+$ENDCMP
+#
+$CMP SN6505B
+D Low-noise, 1-A, 420-kHz transformer driver with soft start for isolated power supplies
+$ENDCMP
+#
+$CMP TC4428
+D 1.5A dual inverting+non-inverting high-speed MOSFET driver
 $ENDCMP
 #
 $CMP TDA2822M
@@ -494,6 +594,14 @@ D General purpose single Operational Amplifier
 F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Opamp/ST_UA741.pdf
 $ENDCMP
 #
+$CMP UC2844
+D Single ended 500KHz current mode PWM controller with 16V/10V UVLO
+$ENDCMP
+#
+$CMP UCC28910
+D 700V Flyback switcher with constant-voltage constant-current and primary-side control
+$ENDCMP
+#
 $CMP ULN2803
 D Darlington Transistor array
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Drivers/TI_ULN2803A.pdf
@@ -525,6 +633,54 @@ $ENDCMP
 $CMP ZXLD1360
 D 30V 1A LED DRIVER with AEC-Q100
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Switcher/ZTX_ZXLD1360.pdf
+$ENDCMP
+#
+$CMP MCP41x1
+D 7/8-Bit Single SPI Digital potentiometer with volatile memory
+$ENDCMP
+#
+$CMP MCP41x2
+D 7/8-Bit Single SPI Digital rheostat with volatile memory
+$ENDCMP
+#
+$CMP MCP42x1_DIL
+D 7/8-Bit Dual SPI Digital potentiometer with volatile memory, dual-inline package types
+$ENDCMP
+#
+$CMP MCP42x1_QFN
+D 7/8-Bit Dual SPI Digital potentiometer with volatile memory, QFN package
+$ENDCMP
+#
+$CMP MCP42x2
+D 7/8-Bit Dual SPI Digital rheostat with volatile memory
+$ENDCMP
+#
+$CMP MIC1555YD5
+D IttyBitty RC Timer/Oscillator
+$ENDCMP
+#
+$CMP MIC1555YMU
+D IttyBitty RC Timer/Oscillator
+$ENDCMP
+#
+$CMP MIC1557YD5
+D IttyBitty RC Timer/Oscillator
+$ENDCMP
+#
+$CMP MTCH101
+D Single-Channel Proximity Detector
+$ENDCMP
+#
+$CMP SAM5504B
+D Audio & Music multi-DSP processor
+$ENDCMP
+#
+$CMP LTC6992-SOT
+D Voltage-Controlled Pulse Width Modulator (PWM)
+$ENDCMP
+#
+$CMP MAX8640
+D Tiny 500mA, 4MHz/2MHz Synchronous Step-Down DC-DC Converter
 $ENDCMP
 #
 #End Doc Library
