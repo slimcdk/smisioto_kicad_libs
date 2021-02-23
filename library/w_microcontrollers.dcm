@@ -82,6 +82,50 @@ K ATTINY13 ATTINY13V
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Microcontrollori/Atmel/ATMEL_ATTINY13.pdf
 $ENDCMP
 #
+$CMP AVR128DB28
+D 8-Bit AVR DB Microcontroller - 28PIN
+$ENDCMP
+#
+$CMP AVR128DB32
+D 8-Bit AVR DB Microcontroller - 32PIN
+$ENDCMP
+#
+$CMP AVR128DB48
+D 8-Bit AVR DB Microcontroller - 48PIN
+$ENDCMP
+#
+$CMP AVR128DB64
+D 8-Bit AVR DB Microcontroller - 64PIN
+$ENDCMP
+#
+$CMP AVR32DB28
+D 8-Bit AVR DB Microcontroller - 28PIN
+$ENDCMP
+#
+$CMP AVR32DB32
+D 8-Bit AVR DB Microcontroller - 32PIN
+$ENDCMP
+#
+$CMP AVR32DB48
+D 8-Bit AVR DB Microcontroller - 48PIN
+$ENDCMP
+#
+$CMP AVR64DB28
+D 8-Bit AVR DB Microcontroller - 28PIN
+$ENDCMP
+#
+$CMP AVR64DB32
+D 8-Bit AVR DB Microcontroller - 32PIN
+$ENDCMP
+#
+$CMP AVR64DB48
+D 8-Bit AVR DB Microcontroller - 48PIN
+$ENDCMP
+#
+$CMP AVR64DB64
+D 8-Bit AVR DB Microcontroller - 64PIN
+$ENDCMP
+#
 $CMP CAT811
 D 4-Pin Microprocessor Power Supply Supervisors with Manual Reset
 K CAT811

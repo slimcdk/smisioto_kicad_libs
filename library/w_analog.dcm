@@ -326,6 +326,18 @@ D Power over Ethernet IEEE 802.3af PD interface with integrated switching regula
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Switcher/LTC_LTC4267.pdf
 $ENDCMP
 #
+$CMP LTC6362-DD
+D Precision, Low Power Rail-to-Rail Input/Output Differential Op Amp/SAR ADC Driver
+$ENDCMP
+#
+$CMP LTC6362-MS8
+D Precision, Low Power Rail-to-Rail Input/Output Differential Op Amp/SAR ADC Driver
+$ENDCMP
+#
+$CMP LTC6992-SOT
+D Voltage-Controlled Pulse Width Modulator (PWM)
+$ENDCMP
+#
 $CMP MAX1684
 D Low-Noise, 14V Input, 1A, PWM Step-Down Converter
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Switcher/MAX_MAX1684-1685.pdf
@@ -334,6 +346,10 @@ $ENDCMP
 $CMP MAX764
 D -5V/-12V/-15V or Adjustable, High-Efficiency, Low IQ DC-DC Inverters
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Switcher/MAX_MAX764-766.pdf
+$ENDCMP
+#
+$CMP MAX8640
+D Tiny 500mA, 4MHz/2MHz Synchronous Step-Down DC-DC Converter
 $ENDCMP
 #
 $CMP MBI6651GSD
@@ -387,6 +403,26 @@ K ADC MCP3008
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Conversione/AD-DA/MCIP_MCP3004-3008.pdf
 $ENDCMP
 #
+$CMP MCP41x1
+D 7/8-Bit Single SPI Digital potentiometer with volatile memory
+$ENDCMP
+#
+$CMP MCP41x2
+D 7/8-Bit Single SPI Digital rheostat with volatile memory
+$ENDCMP
+#
+$CMP MCP42x1_DIL
+D 7/8-Bit Dual SPI Digital potentiometer with volatile memory, dual-inline package types
+$ENDCMP
+#
+$CMP MCP42x1_QFN
+D 7/8-Bit Dual SPI Digital potentiometer with volatile memory, QFN package
+$ENDCMP
+#
+$CMP MCP42x2
+D 7/8-Bit Dual SPI Digital rheostat with volatile memory
+$ENDCMP
+#
 $CMP MCP48x2
 D 8/10/12-Bit Dual Voltage Output DAC with Internal VREF and SPI Interface
 $ENDCMP
@@ -436,9 +472,25 @@ D Miniature single-cell, fully integrated Li-Ion,Li-Polymer charge management co
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Regolatori/MCIP_MCP73831-2.pdf
 $ENDCMP
 #
+$CMP MIC1555YD5
+D IttyBitty RC Timer/Oscillator
+$ENDCMP
+#
+$CMP MIC1555YMU
+D IttyBitty RC Timer/Oscillator
+$ENDCMP
+#
+$CMP MIC1557YD5
+D IttyBitty RC Timer/Oscillator
+$ENDCMP
+#
 $CMP MPU-9150
 D 9-axis MotionTracking device
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Sensori/MPU-9150.pdf
+$ENDCMP
+#
+$CMP MTCH101
+D Single-Channel Proximity Detector
 $ENDCMP
 #
 $CMP NCP1027
@@ -473,6 +525,14 @@ $CMP OPA2227
 D High precision low noise dual operational amplifiers
 $ENDCMP
 #
+$CMP OPA2277-DIP
+D High precision low noise dual operational amplifiers
+$ENDCMP
+#
+$CMP OPA2277-DRM
+D High precision low noise dual operational amplifiers
+$ENDCMP
+#
 $CMP OPA548
 D High-voltage, high-current, wide-output-voltage-swing power operational amplfier
 $ENDCMP
@@ -493,6 +553,10 @@ $CMP SAM2195
 D Low power single chip synthesizer with effects
 K SAM2195
 F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Conversione/DREAM_SAM2195.pdf
+$ENDCMP
+#
+$CMP SAM5504B
+D Audio & Music multi-DSP processor
 $ENDCMP
 #
 $CMP SI7020-A10
@@ -633,54 +697,6 @@ $ENDCMP
 $CMP ZXLD1360
 D 30V 1A LED DRIVER with AEC-Q100
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Switcher/ZTX_ZXLD1360.pdf
-$ENDCMP
-#
-$CMP MCP41x1
-D 7/8-Bit Single SPI Digital potentiometer with volatile memory
-$ENDCMP
-#
-$CMP MCP41x2
-D 7/8-Bit Single SPI Digital rheostat with volatile memory
-$ENDCMP
-#
-$CMP MCP42x1_DIL
-D 7/8-Bit Dual SPI Digital potentiometer with volatile memory, dual-inline package types
-$ENDCMP
-#
-$CMP MCP42x1_QFN
-D 7/8-Bit Dual SPI Digital potentiometer with volatile memory, QFN package
-$ENDCMP
-#
-$CMP MCP42x2
-D 7/8-Bit Dual SPI Digital rheostat with volatile memory
-$ENDCMP
-#
-$CMP MIC1555YD5
-D IttyBitty RC Timer/Oscillator
-$ENDCMP
-#
-$CMP MIC1555YMU
-D IttyBitty RC Timer/Oscillator
-$ENDCMP
-#
-$CMP MIC1557YD5
-D IttyBitty RC Timer/Oscillator
-$ENDCMP
-#
-$CMP MTCH101
-D Single-Channel Proximity Detector
-$ENDCMP
-#
-$CMP SAM5504B
-D Audio & Music multi-DSP processor
-$ENDCMP
-#
-$CMP LTC6992-SOT
-D Voltage-Controlled Pulse Width Modulator (PWM)
-$ENDCMP
-#
-$CMP MAX8640
-D Tiny 500mA, 4MHz/2MHz Synchronous Step-Down DC-DC Converter
 $ENDCMP
 #
 #End Doc Library

@@ -3,6 +3,30 @@ Kicad Libraries Changelog
 + = added  - = removed  M = modified  R = moved to another library  A = moved from another library
 Dates are in YYYYMMDD format
 
+#20210223
+  M w_analog
+    + LTC6362-MS8
+    + LTC6362-DD
+    M OPA2227
+    + OPA2277-DIP
+    + OPA2277-DRM
+  M w_microcontrollers
+    + AVR32DB28
+    + AVR32DB32
+    + AVR32DB48
+    + AVR64DB28
+    + AVR64DB32
+    + AVR64DB48
+    + AVR64DB64
+    + AVR128DB28
+    + AVR128DB32
+    + AVR128DB48
+    + AVR128DB64
+  M mod_smd_qfn
+    + dfn8-dd
+    + s-pdso-n8
+    + vqfn-48-6x6
+
 #20210131
   M w_microcontrollers
     + PIC16F15323-DIP
