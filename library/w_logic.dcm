@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 4013
+D Dual D-Type Flip-Flop
+$ENDCMP
+#
 $CMP 4093
 D Quad 2-input NAND Schmitt Trigger, logic symbol
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Porte_logiche/NAND/NXP_HEF4093B.pdf
@@ -58,6 +62,10 @@ $ENDCMP
 $CMP 7421
 D Dual 4-input AND gate, logic symbol
 F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Porte_logiche/AND/NSC_74LS21.pdf
+$ENDCMP
+#
+$CMP 74266
+D Quad 2-input X-NOR gate, logic symbol
 $ENDCMP
 #
 $CMP 7427
@@ -168,10 +176,6 @@ D 4-line BCD to 10-line decimal decoder
 F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Buffer/TI_74LS42.pdf
 $ENDCMP
 #
-$CMP 74LVC1G57
-D Configurable Multiple-Function gate
-$ENDCMP
-#
 $CMP M5450
 D 34 bit LED display driver
 F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Drivers/ST_M5450_M5451.pdf
@@ -192,12 +196,24 @@ D Dual supply translating transceiver, auto direction sensing, 3-state
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Drivers/NXP_NTB0102.pdf
 $ENDCMP
 #
+$CMP SN74LVC1G06-SOT
+D Single open-drain inverter
+$ENDCMP
+#
 $CMP SN74LVC1G14-SOT
 D Single Schmitt-trigger inverter
 $ENDCMP
 #
 $CMP SN74LVC1G3157
 D Single-Pole Double-Throw Analog Switch
+$ENDCMP
+#
+$CMP SN74LVC1G38-SOT
+D Single 2-input NAND gate
+$ENDCMP
+#
+$CMP SN74LVC1G57
+D Configurable Multiple-Function gate
 $ENDCMP
 #
 #End Doc Library

@@ -30,8 +30,20 @@ $CMP Anaren_A2500R24
 D Anaren A2500R24 RF module
 $ENDCMP
 #
+$CMP CY7C65621
+D EZ-USB HX2LP Lite Low Power USB 2.0 Hub Controller Family
+$ENDCMP
+#
+$CMP CY7C65631
+D EZ-USB HX2LP Lite Low Power USB 2.0 Hub Controller Family
+$ENDCMP
+#
 $CMP Casambi_CBM001
 D Casambi CBM001 Bluetooth module
+$ENDCMP
+#
+$CMP DS8921
+D RS422/RS485 Transceiver
 $ENDCMP
 #
 $CMP FT232BL
@@ -331,14 +343,6 @@ $ENDCMP
 $CMP XR20M1170-24TSSOP
 D I2C/SPI UART WITH 64-byte FIFO
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/EXAR_XR20M1170.pdf
-$ENDCMP
-#
-$CMP CY7C65621
-D EZ-USB HX2LP Lite Low Power USB 2.0 Hub Controller Family
-$ENDCMP
-#
-$CMP CY7C65631
-D EZ-USB HX2LP Lite Low Power USB 2.0 Hub Controller Family
 $ENDCMP
 #
 #End Doc Library

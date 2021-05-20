@@ -549,6 +549,10 @@ $CMP REF31xx
 D 20-ppm/°C max, 100-µA, 3-pin SOT-23 series voltage reference
 $ENDCMP
 #
+$CMP ROE-xxyyS
+D Recom ROE-xxyyS family isolated 1W DC/DC
+$ENDCMP
+#
 $CMP SAM2195
 D Low power single chip synthesizer with effects
 K SAM2195

@@ -3,6 +3,118 @@ Kicad Libraries Changelog
 + = added  - = removed  M = modified  R = moved to another library  A = moved from another library
 Dates are in YYYYMMDD format
 
+#20210520
+  M w_connectors
+    + DIN41612-32-AC
+    + DIN41612-64-AC
+    + DIN41612-96-ABC
+  M w_logic
+    + 4013
+    + 4046
+    + 4049
+    + 4052
+    + 4066
+    + 4081
+    + 40106
+    + 4503
+    + 4528
+    - 74lvc1g57
+    + sn74lvc1g06-sot
+    + sn74lvc1g38-sot
+    + sn74lvc1g57
+  M w_rtx
+    + ds8921
+  + mod_conn_din41612
+  + mod_conn_mc
+  M mod_conn_modu
+    M amp-modu-2
+    + amp-modu-2-90
+    + amp-modu-2x4
+    + amp-modu-2x4-90
+    + amp-modu-2x5-90
+    + amp-modu-2x6-90
+    + amp-modu-2x8
+    + amp-modu-2x8-90
+    + amp-modu-2x9
+    + amp-modu-2x9-90
+    + amp-modu-2x12
+    + amp-modu-2x12-90
+    + amp-modu-2x15
+    + amp-modu-2x15-90
+    + amp-modu-2x18
+    + amp-modu-2x18-90
+    + amp-modu-2x22
+    + amp-modu-2x22-90
+    M amp-modu-4
+    + amp-modu-4-90
+    M amp-modu-6
+    + amp-modu-6-90
+    M amp-modu-8
+    + amp-modu-8-90
+    M amp-modu-9
+    + amp-modu-9-90
+    M amp-modu-10
+    + amp-modu-10-90
+    M amp-modu-12
+    + amp-modu-12-90
+    M amp-modu-15
+    + amp-modu-15-90
+    M amp-modu-22
+    + amp-modu-22-90
+  + mod_conn_mstb
+    + mstba 2,5-2-g-5,08
+    + mstba 2,5-3-g-5,08
+    + mstba 2,5-4-g-5,08
+    + mstba 2,5-5-g-5,08
+    + mstba 2,5-6-g-5,08
+    + mstba 2,5-7-g-5,08
+    + mstba 2,5-8-g-5,08
+    + mstba 2,5-9-g-5,08
+    + mstba 2,5-10-g-5,08
+    + mstba 2,5-11-g-5,08
+    + mstba 2,5-12-g-5,08
+    + mstbva 2,5-2-g-5,08
+    + mstbva 2,5-3-g-5,08
+    + mstbva 2,5-4-g-5,08
+    + mstbva 2,5-5-g-5,08
+    + mstbva 2,5-6-g-5,08
+    + mstbva 2,5-7-g-5,08
+    + mstbva 2,5-8-g-5,08
+    + mstbva 2,5-9-g-5,08
+    + mstbva 2,5-10-g-5,08
+    + mstbva 2,5-11-g-5,08
+    + mstbva 2,5-12-g-5,08
+  + mod_conn_redcube
+  M mod_conn_screw
+    - mstba 2,5-2-g-5,08
+    - mstba 2,5-3-g-5,08
+    - mstba 2,5-4-g-5,08
+    - mstba 2,5-5-g-5,08
+    - mstba 2,5-6-g-5,08
+    - mstba 2,5-7-g-5,08
+    - mstba 2,5-8-g-5,08
+    - mstba 2,5-9-g-5,08
+    - mstba 2,5-10-g-5,08
+    - mstba 2,5-11-g-5,08
+    - mstba 2,5-12-g-5,08
+    - mstbva 2,5-2-g-5,08
+    - mstbva 2,5-3-g-5,08
+    - mstbva 2,5-4-g-5,08
+    - mstbva 2,5-5-g-5,08
+    - mstbva 2,5-6-g-5,08
+    - mstbva 2,5-7-g-5,08
+    - mstbva 2,5-8-g-5,08
+    - mstbva 2,5-9-g-5,08
+    - mstbva 2,5-10-g-5,08
+    - mstbva 2,5-11-g-5,08
+    - mstbva 2,5-12-g-5,08
+  M mod_misc_comp
+    + recom_roe
+  M mod_smd_inductors
+    + inductor_smd_1812
+  M mod_smd_resistors
+    + trim_bi_35
+
 #20210223
   M w_analog
     + LTC6362-MS8
