@@ -1,5 +1,6 @@
 (module Luxeon_M (layer F.Cu)
   (descr "Philips Lumileds Luxeon M")
+  (attr smd)
   (fp_text reference LD? (at 0 -4.30022) (layer F.SilkS)
     (effects (font (size 0.99568 0.99568) (thickness 0.19812)))
   )

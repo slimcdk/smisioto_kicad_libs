@@ -1,6 +1,7 @@
 (module ubga484-std (layer F.Cu) (tedit 54F8DF67)
   (descr "484 pin Ultra FineLine BGA (standard pin numbering)")
   (clearance 0.1)
+  (attr smd)
   (fp_text reference U*** (at 0 -10.5) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
@@ -989,7 +990,7 @@
     (solder_mask_margin 0.07) (solder_paste_margin -0.05))
   (pad A18 smd circle (at -8.4 -5.2 90) (size 0.55 0.55) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.07) (solder_paste_margin -0.05))
-  (model walter/smd_bga/ubga484.wrl
+  (model ${KISYS3DMOD}/walter/smd_bga.3dshapes/ubga484.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

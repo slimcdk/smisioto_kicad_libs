@@ -1,5 +1,6 @@
 (module sot23-8 (layer F.Cu) (tedit 5B460154)
   (descr SOT23-8)
+  (attr smd)
   (fp_text reference Q? (at 0 -2.3) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
@@ -37,7 +38,7 @@
     (clearance 0.2))
   (pad 1 smd rect (at -0.975 1.2) (size 0.4 1) (layers F.Cu F.Paste F.Mask)
     (clearance 0.2))
-  (model walter/smd_trans/sot23-8.wrl
+  (model ${KISYS3DMOD}/walter/smd_trans.3dshapes/sot23-8.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

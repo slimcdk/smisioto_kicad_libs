@@ -12,7 +12,7 @@
   (fp_line (start -9 2.6) (end -9 -2.6) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole circle (at 7.5 0) (size 2 2) (drill 0.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -7.5 0) (size 2 2) (drill 0.8) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/walter/capacitors/cnp_17.5x5h11mm.wrl
+  (model ${KISYS3DMOD}/walter/capacitors.3dshapes/cnp_17.5x5h11mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

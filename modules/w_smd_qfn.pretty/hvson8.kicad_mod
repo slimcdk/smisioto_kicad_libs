@@ -1,5 +1,6 @@
 (module hvson8 (layer F.Cu) (tedit 55055EBB)
   (descr "Plastic QFP, NXP HVSON8")
+  (attr smd)
   (fp_text reference hvson8 (at 0 2.5) (layer F.SilkS)
     (effects (font (size 0.50038 0.50038) (thickness 0.09906)))
   )
@@ -34,7 +35,7 @@
     (solder_mask_margin 0.07) (clearance 0.2))
   (pad 9 smd rect (at 0 0) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.07) (solder_paste_margin -0.1) (clearance 0.2))
-  (model walter/smd_qfn/hvson8.wrl
+  (model ${KISYS3DMOD}/walter/smd_qfn.3dshapes/hvson8.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

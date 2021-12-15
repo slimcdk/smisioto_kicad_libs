@@ -1,5 +1,6 @@
 (module lbga256-std (layer F.Cu) (tedit 54F8E10E)
   (descr "256 pin Low Profile BGA (standard pin numbering)")
+  (attr smd)
   (fp_text reference U*** (at 0 -9) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
@@ -536,7 +537,7 @@
     (solder_mask_margin 0.07) (solder_paste_margin -0.05))
   (pad T16 smd circle (at 7.5 -7.5 90) (size 0.45 0.45) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.07) (solder_paste_margin -0.05))
-  (model walter/smd_bga/lbga256.wrl
+  (model ${KISYS3DMOD}/walter/smd_bga.3dshapes/lbga256.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

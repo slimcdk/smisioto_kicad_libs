@@ -56,7 +56,7 @@
   (pad 3 thru_hole oval (at -9.779 5.08) (size 1.2 2) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole oval (at -11.557 5.08) (size 1.2 2) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole oval (at -13.335 5.08) (size 1.2 2) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
-  (model walter/pth_circuits/sdil_32-400_socket.wrl
+  (model ${KISYS3DMOD}/walter/pth_circuits.3dshapes/sdil_32-400_socket.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

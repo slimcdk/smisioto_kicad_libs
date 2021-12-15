@@ -1,5 +1,6 @@
 (module Led_0805 (layer F.Cu)
   (descr "SMD LED, 0805")
+  (attr smd)
   (fp_text reference LD? (at 0 -1.651) (layer F.SilkS)
     (effects (font (size 0.8001 0.8001) (thickness 0.14986)))
   )
@@ -19,7 +20,7 @@
   (fp_line (start -1.00076 0.8001) (end -1.00076 -0.8001) (layer F.SilkS) (width 0.127))
   (pad 1 smd rect (at -1.04902 0) (size 1.19888 1.19888) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.04902 0) (size 1.19888 1.19888) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_leds/led_0805.wrl
+  (model ${KISYS3DMOD}/walter/smd_leds.3dshapes/led_0805.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

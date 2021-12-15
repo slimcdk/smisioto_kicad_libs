@@ -1,5 +1,6 @@
 (module "df12a(3.0)-50ds-0.5v" (layer F.Cu)
   (descr "Hirose DF12 series connector, DF12A(3.0)-50DS-0.5V")
+  (attr smd)
   (fp_text reference JP*** (at 0 -3.50012) (layer F.SilkS)
     (effects (font (size 0.49784 0.49784) (thickness 0.09906)))
   )
@@ -123,7 +124,7 @@
   (pad "" smd rect (at 0 0) (size 12.29868 1.99898) (layers Dwgs.User))
   (pad "" np_thru_hole circle (at -7.0485 -1.4986) (size 0.5969 0.5969) (drill 0.5969) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at 7.0485 -1.4986) (size 0.5969 0.5969) (drill 0.5969) (layers *.Cu *.Mask F.SilkS))
-  (model "walter/conn_df12/df12a(3.0)-50ds-0.5v.wrl"
+  (model "${KISYS3DMOD}/walter/conn_df12.3dshapes/df12a(3.0)-50ds-0.5v.wrl"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

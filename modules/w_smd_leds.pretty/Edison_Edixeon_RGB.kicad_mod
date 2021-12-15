@@ -1,5 +1,6 @@
 (module Edison_Edixeon_RGB (layer F.Cu)
   (descr "Edison Edixeon RGB")
+  (attr smd)
   (fp_text reference LD? (at 0 -4.59994) (layer F.SilkS)
     (effects (font (size 1.00076 1.00076) (thickness 0.20066)))
   )
@@ -63,7 +64,7 @@
   (pad 6 smd rect (at 6.49986 -1.84912) (size 2.79908 1.30048) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 6.49986 0) (size 2.79908 1.30048) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 6.49986 1.84912) (size 2.79908 1.30048) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_leds/edison_edixeon-RGB.wrl
+  (model ${KISYS3DMOD}/walter/smd_leds.3dshapes/edison_edixeon-RGB.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

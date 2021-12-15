@@ -3,6 +3,7 @@
   (solder_mask_margin 0.07)
   (solder_paste_margin -0.05)
   (clearance 0.1)
+  (attr smd)
   (fp_text reference U*** (at 0 -3.9) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
@@ -477,7 +478,7 @@
     (solder_mask_margin 0.07) (solder_paste_margin -0.05))
   (pad J15 smd circle (at 0.4 -2.8) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.07) (solder_paste_margin -0.05))
-  (model walter/smd_bga/ucbga225.wrl
+  (model ${KISYS3DMOD}/walter/smd_bga.3dshapes/ucbga225.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

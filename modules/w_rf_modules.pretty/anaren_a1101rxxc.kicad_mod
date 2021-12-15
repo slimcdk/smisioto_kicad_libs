@@ -1,5 +1,6 @@
 (module anaren_a1101rxxc (layer F.Cu)
   (descr "Anaren A1101RxxC Wireless module")
+  (attr smd)
   (fp_text reference U*** (at 0 -7.2) (layer F.SilkS)
     (effects (font (thickness 0.3048)))
   )
@@ -52,7 +53,7 @@
   (pad "" smd rect (at 1 -1.64) (size 1 1) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at -3.91 -4.89) (size 1 1) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at 3.91 -4.89) (size 1 1) (layers F.Cu F.Paste F.Mask))
-  (model walter/rf_modules/anaren_a1101rxxc.wrl
+  (model ${KISYS3DMOD}/walter/rf_modules.3dshapes/anaren_a1101rxxc.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

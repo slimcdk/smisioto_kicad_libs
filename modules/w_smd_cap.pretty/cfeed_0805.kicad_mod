@@ -1,5 +1,6 @@
 (module cfeed_0805 (layer F.Cu)
   (descr "SMT FeedThrough capacitor, 0805")
+  (attr smd)
   (fp_text reference cfeed_0805 (at 0 -0.9906) (layer F.SilkS)
     (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
   )

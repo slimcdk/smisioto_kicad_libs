@@ -1,5 +1,6 @@
 (module tssop-14ep (layer F.Cu) (tedit 6016595A)
   (descr TSSOP-14EP)
+  (attr smd)
   (fp_text reference TSSOP-14EP (at 0 0.508) (layer F.SilkS)
     (effects (font (size 0.50038 0.50038) (thickness 0.09906)))
   )
@@ -35,7 +36,7 @@
   (pad 16 smd rect (at 0 1) (size 0.8 0.8) (layers F.Paste))
   (pad 16 smd rect (at -1 1) (size 0.8 0.8) (layers F.Paste))
   (pad 16 smd rect (at 1 1) (size 0.8 0.8) (layers F.Paste))
-  (model walter/smd_dil/tssop-14ep.wrl
+  (model ${KISYS3DMOD}/walter/smd_dil.3dshapes/tssop-14ep.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

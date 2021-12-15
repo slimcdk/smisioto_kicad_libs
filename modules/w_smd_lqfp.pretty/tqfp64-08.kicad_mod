@@ -1,5 +1,6 @@
 (module tqfp64-08 (layer F.Cu)
   (descr "TQFP-64 0.8mm pitch")
+  (attr smd)
   (fp_text reference TQFP-64_08 (at 0 1.143) (layer F.SilkS)
     (effects (font (size 0.7493 0.7493) (thickness 0.14986)))
   )
@@ -94,7 +95,7 @@
   (pad 62 smd rect (at -7.71398 4.39928) (size 1.30048 0.508) (layers F.Cu F.Paste F.Mask))
   (pad 63 smd rect (at -7.71398 5.19938) (size 1.30048 0.508) (layers F.Cu F.Paste F.Mask))
   (pad 64 smd rect (at -7.71398 5.99948) (size 1.30048 0.508) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_lqfp/tqfp-64_08.wrl
+  (model ${KISYS3DMOD}/walter/smd_lqfp.3dshapes/tqfp-64_08.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

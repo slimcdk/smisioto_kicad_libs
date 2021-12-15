@@ -1,5 +1,6 @@
 (module c_tant_A (layer F.Cu) (tedit 5B165A03)
   (descr "SMT capacitor, tantalum size A")
+  (attr smd)
   (fp_text reference c_tant_A (at 0.0254 -1.2954) (layer F.SilkS)
     (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
   )
@@ -16,7 +17,7 @@
   (fp_poly (pts (xy -1.6 -0.8) (xy -0.7 -0.8) (xy -0.7 0.8) (xy -1.6 0.8)) (layer F.SilkS) (width 0.01))
   (pad 2 smd rect (at 1.37414 0) (size 1.95072 1.50114) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -1.37414 0) (size 1.95072 1.50114) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_cap/c_tant_A.wrl
+  (model ${KISYS3DMOD}/walter/smd_cap.3dshapes/c_tant_A.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

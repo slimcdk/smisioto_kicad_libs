@@ -1,5 +1,6 @@
 (module lfcsp-wd-10_30x30 (layer F.Cu) (tedit 55055747)
   (descr "Plastic LFCSP, 10 pins, 30x30, National CP-10-3")
+  (attr smd)
   (fp_text reference lfcsp-wd-10_30x30 (at 0 -2.2) (layer F.SilkS)
     (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
   )
@@ -40,7 +41,7 @@
     (solder_mask_margin 0.06858) (solder_paste_margin -0.09906))
   (pad 11 smd rect (at 0 0.5969) (size 1.6002 1.19888) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.06858) (solder_paste_margin -0.09906))
-  (model walter/smd_qfn/lfcsp-wd-10_30x30.wrl
+  (model ${KISYS3DMOD}/walter/smd_qfn.3dshapes/lfcsp-wd-10_30x30.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

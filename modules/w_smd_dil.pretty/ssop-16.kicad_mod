@@ -1,5 +1,6 @@
 (module ssop-16 (layer F.Cu) (tedit 601658FF)
   (descr SSOP-16)
+  (attr smd)
   (fp_text reference SSOP-16 (at 0 0.508) (layer F.SilkS)
     (effects (font (size 0.50038 0.50038) (thickness 0.09906)))
   )
@@ -27,7 +28,7 @@
   (pad 14 smd rect (at -0.9525 -2.667) (size 0.4064 1.651) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at 2.2225 2.667) (size 0.4064 1.651) (layers F.Cu F.Paste F.Mask))
   (pad 15 smd rect (at -1.5875 -2.667) (size 0.4064 1.651) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_dil/ssop-16.wrl
+  (model ${KISYS3DMOD}/walter/smd_dil.3dshapes/ssop-16.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

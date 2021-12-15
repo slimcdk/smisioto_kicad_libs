@@ -1,5 +1,6 @@
 (module Logo_copper_WEEE_3.4x5mm (layer F.Cu)
   (descr "WEEE logo, 3.4x5mm")
+  (attr virtual)
   (fp_text reference G*** (at 0 0.1) (layer F.SilkS) hide
     (effects (font (size 0.09144 0.09144) (thickness 0.01778)))
   )

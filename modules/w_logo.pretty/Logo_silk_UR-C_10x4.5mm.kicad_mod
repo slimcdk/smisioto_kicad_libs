@@ -1,5 +1,6 @@
 (module Logo_silk_UR-C_10x4.5mm (layer F.Cu)
   (descr "UL Recognized C logo, 10x4.5mm")
+  (attr virtual)
   (fp_text reference G*** (at 1.7 -0.5) (layer F.SilkS) hide
     (effects (font (size 0.23876 0.23876) (thickness 0.04572)))
   )

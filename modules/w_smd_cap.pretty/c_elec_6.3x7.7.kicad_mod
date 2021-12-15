@@ -1,5 +1,6 @@
 (module c_elec_6.3x7.7 (layer F.Cu)
   (descr "SMT capacitor, aluminium electrolytic, 6.3x7.7")
+  (attr smd)
   (fp_text reference c_elec_6.3x7.7 (at 0 -3.937) (layer F.SilkS)
     (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
   )
@@ -22,7 +23,7 @@
   (fp_line (start 1.778 -0.381) (end 1.778 0.381) (layer F.SilkS) (width 0.127))
   (pad 1 smd rect (at 2.75082 0) (size 3.59918 1.6002) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -2.75082 0) (size 3.59918 1.6002) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_cap/c_elec_6_3x7_7.wrl
+  (model ${KISYS3DMOD}/walter/smd_cap.3dshapes/c_elec_6_3x7_7.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

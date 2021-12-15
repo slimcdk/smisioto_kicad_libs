@@ -23,7 +23,7 @@
   (pad 10 thru_hole circle (at 17.78 0) (size 3 3) (drill 1.4) (layers *.Cu *.Mask F.SilkS))
   (pad 11 thru_hole circle (at 22.86 0) (size 3 3) (drill 1.4) (layers *.Cu *.Mask F.SilkS))
   (pad 12 thru_hole circle (at 27.94 0) (size 3 3) (drill 1.4) (layers *.Cu *.Mask F.SilkS))
-  (model walter/conn_mstb/mstba_2,5-12-g-5,08.wrl
+  (model ${KISYS3DMOD}/walter/conn_mstb.3dshapes/mstba_2,5-12-g-5,08.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

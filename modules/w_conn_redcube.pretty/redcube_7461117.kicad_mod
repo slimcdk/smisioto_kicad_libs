@@ -49,7 +49,7 @@
   (pad 1 thru_hole circle (at -1.27 6.35) (size 2.4 2.4) (drill 1.45) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 6.35 3.81) (size 2.4 2.4) (drill 1.45) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 6.35 1.27) (size 2.4 2.4) (drill 1.45) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/walter/conn_redcube/redcube_7461117.wrl
+  (model ${KISYS3DMOD}/walter/conn_redcube.3dshapes/redcube_7461117.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,5 +1,6 @@
 (module Logo_copper_UR-US_10x4mm (layer F.Cu)
   (descr "UL Recognized US logo, 10x4mm")
+  (attr virtual)
   (fp_text reference G*** (at -0.7 -0.4) (layer F.SilkS) hide
     (effects (font (size 0.20574 0.20574) (thickness 0.04064)))
   )

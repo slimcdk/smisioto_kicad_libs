@@ -1,5 +1,6 @@
 (module Edison_Edixeon_A (layer F.Cu)
   (descr "Edison Edixeon A")
+  (attr smd)
   (fp_text reference LD? (at 0 -4.59994) (layer F.SilkS)
     (effects (font (size 1.00076 1.00076) (thickness 0.20066)))
   )
@@ -59,7 +60,7 @@
     (solder_mask_margin 0.09906) (solder_paste_margin -0.0508))
   (pad 3 smd circle (at 0 0) (size 6.4008 6.4008) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.09906) (solder_paste_margin -0.70104))
-  (model walter/smd_leds/edison_edixeon-a.wrl
+  (model ${KISYS3DMOD}/walter/smd_leds.3dshapes/edison_edixeon-a.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

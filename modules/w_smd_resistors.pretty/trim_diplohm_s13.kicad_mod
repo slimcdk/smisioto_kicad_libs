@@ -1,5 +1,6 @@
 (module trim_diplohm_s13 (layer F.Cu)
   (descr "SMT trimmer, Diplohmatic S13")
+  (attr smd)
   (fp_text reference TR*** (at 0 -4.30022) (layer F.SilkS)
     (effects (font (size 0.7493 0.7493) (thickness 0.14986)))
   )
@@ -19,7 +20,7 @@
   (pad 2 smd rect (at -1.24968 -2.4003) (size 1.00076 2.30124) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 1.24968 2.4003) (size 1.00076 2.30124) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 1.24968 -2.4003) (size 1.00076 2.30124) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_resistors/trim_diplohm_s13.wrl
+  (model ${KISYS3DMOD}/walter/smd_resistors.3dshapes/trim_diplohm_s13.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

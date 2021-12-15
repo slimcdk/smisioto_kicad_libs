@@ -23,7 +23,7 @@
   (fp_line (start -3.9 2.5) (end -3.9 -2.5) (layer F.SilkS) (width 0.3))
   (pad 1 thru_hole rect (at -1.27 0) (size 1.5 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole oval (at 1.27 0) (size 1.5 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (model walter/conn_modu/AMP_MODU_2.wrl
+  (model ${KISYS3DMOD}/walter/conn_modu.3dshapes/AMP_MODU_2.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

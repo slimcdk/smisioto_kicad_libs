@@ -1,5 +1,6 @@
 (module tssop-20 (layer F.Cu) (tedit 60165966)
   (descr TSSOP-20)
+  (attr smd)
   (fp_text reference TSSOP-20 (at 0 0.508) (layer F.SilkS)
     (effects (font (size 0.50038 0.50038) (thickness 0.09906)))
   )
@@ -31,7 +32,7 @@
   (pad 10 smd rect (at 2.92608 2.79908) (size 0.4191 1.47066) (layers F.Cu F.Paste F.Mask))
   (pad 11 smd rect (at 2.92608 -2.79908) (size 0.4191 1.47066) (layers F.Cu F.Paste F.Mask))
   (pad 20 smd rect (at -2.92608 -2.79908) (size 0.4191 1.47066) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_dil/tssop-20.wrl
+  (model ${KISYS3DMOD}/walter/smd_dil.3dshapes/tssop-20.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

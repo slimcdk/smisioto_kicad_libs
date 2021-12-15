@@ -1,5 +1,6 @@
 (module TQFP-100-4 (layer F.Cu)
   (descr "TQFP-100, 12x12 0.4mm pitch")
+  (attr smd)
   (fp_text reference U*** (at 0 -1.00076) (layer F.SilkS)
     (effects (font (size 0.7493 0.7493) (thickness 0.14986)))
   )
@@ -137,7 +138,7 @@
   (pad 98 smd rect (at -6.69798 3.99796) (size 1.4986 0.19558) (layers F.Cu F.Paste F.Mask))
   (pad 99 smd rect (at -6.69798 4.39928) (size 1.4986 0.19558) (layers F.Cu F.Paste F.Mask))
   (pad 100 smd rect (at -6.69798 4.79806) (size 1.4986 0.19558) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_lqfp/tqfp-100-4.wrl
+  (model ${KISYS3DMOD}/walter/smd_lqfp.3dshapes/tqfp-100-4.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

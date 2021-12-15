@@ -1,5 +1,6 @@
 (module "df12c(3.0)-30ds-0.5v" (layer F.Cu)
   (descr "Hirose DF12 series connector, DF12C(3.0)-30DS-0.5V")
+  (attr smd)
   (fp_text reference JP*** (at 0 -3.50012) (layer F.SilkS)
     (effects (font (size 0.49784 0.49784) (thickness 0.09906)))
   )
@@ -81,7 +82,7 @@
   (pad 30 smd rect (at -3.49758 -1.80086) (size 0.29718 1.59766) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.06858) (solder_paste_margin -0.04826) (clearance 0.19558))
   (pad "" smd rect (at 0 0) (size 7.29996 1.99898) (layers Dwgs.User))
-  (model "walter/conn_df12/df12c(3.0)-30ds-0.5v.wrl"
+  (model "${KISYS3DMOD}/walter/conn_df12.3dshapes/df12c(3.0)-30ds-0.5v.wrl"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

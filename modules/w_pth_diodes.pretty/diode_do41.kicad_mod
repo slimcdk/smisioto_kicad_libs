@@ -16,7 +16,7 @@
   (fp_line (start -2.54 0) (end -4.826 0) (layer F.SilkS) (width 0.254))
   (pad 1 thru_hole circle (at -5.08 0) (size 2 2) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 5.08 0) (size 2 2) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (model walter/pth_diodes/diode_do41.wrl
+  (model ${KISYS3DMOD}/walter/pth_diodes.3dshapes/diode_do41.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

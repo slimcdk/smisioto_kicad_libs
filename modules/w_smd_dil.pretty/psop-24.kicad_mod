@@ -1,5 +1,6 @@
 (module psop-24 (layer F.Cu) (tedit 60165888)
   (descr "PSOP-24 - PowerPad Small-Outline")
+  (attr smd)
   (fp_text reference PSOP-24 (at 0 0.508) (layer F.SilkS)
     (effects (font (size 0.50038 0.50038) (thickness 0.09906)))
   )
@@ -36,7 +37,7 @@
   (pad 12 smd rect (at 3.57378 2.79908) (size 0.29972 1.6002) (layers F.Cu F.Paste F.Mask))
   (pad 13 smd rect (at 3.57378 -2.79908) (size 0.29972 1.6002) (layers F.Cu F.Paste F.Mask))
   (pad 24 smd rect (at -3.57378 -2.79908) (size 0.29972 1.6002) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_dil/psop-24.wrl
+  (model ${KISYS3DMOD}/walter/smd_dil.3dshapes/psop-24.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

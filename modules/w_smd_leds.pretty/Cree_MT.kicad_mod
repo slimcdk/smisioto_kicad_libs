@@ -1,5 +1,6 @@
 (module Cree_MT (layer F.Cu)
   (descr "Cree MT")
+  (attr smd)
   (fp_text reference LD? (at 0 -5.30098) (layer F.SilkS)
     (effects (font (size 0.99822 0.99822) (thickness 0.19812)))
   )

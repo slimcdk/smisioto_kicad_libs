@@ -1,6 +1,7 @@
 (module pad_2x5mm (layer F.Cu) (tedit 572C9E41)
   (descr "Pad 2x5mm")
   (attr smd)
+  (attr virtual)
   (fp_text reference J6 (at 0 0) (layer F.SilkS) hide
     (effects (font (size 0.127 0.127) (thickness 0.00254)))
   )

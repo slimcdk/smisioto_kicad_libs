@@ -1,5 +1,6 @@
 (module vfbga20 (layer F.Cu) (tedit 5B3C744C)
   (descr "20 pin Very Fine Pitch BGA (TI)")
+  (attr smd)
   (fp_text reference U*** (at 0.2 -1.8 180) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
@@ -64,7 +65,7 @@
     (solder_mask_margin 0.04))
   (pad A5 smd circle (at 1 -0.75) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.04))
-  (model walter/smd_bga/vfbga20.wrl
+  (model ${KISYS3DMOD}/walter/smd_bga.3dshapes/vfbga20.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

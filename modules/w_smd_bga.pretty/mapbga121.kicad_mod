@@ -1,5 +1,6 @@
 (module mapbga121 (layer F.Cu) (tedit 54F8DFDD)
   (descr "121 pin PBGA low profile")
+  (attr smd)
   (fp_text reference U*** (at 0 -6.5) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
@@ -262,7 +263,7 @@
     (solder_mask_margin 0.07) (solder_paste_margin -0.05))
   (pad K1 smd circle (at 4 5) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.07) (solder_paste_margin -0.05))
-  (model walter/smd_bga/mapbga121.wrl
+  (model ${KISYS3DMOD}/walter/smd_bga.3dshapes/mapbga121.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

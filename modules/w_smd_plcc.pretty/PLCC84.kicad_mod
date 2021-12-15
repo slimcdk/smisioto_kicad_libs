@@ -1,4 +1,5 @@
 (module PLCC84 (layer F.Cu)
+  (attr smd)
   (fp_text reference PLCC84 (at 0 -16.79956) (layer F.SilkS)
     (effects (font (size 1.00076 1.00076) (thickness 0.20066)))
   )
@@ -118,7 +119,7 @@
   (pad 82 smd oval (at -3.81 14.37386) (size 0.70104 2.70002) (layers F.Cu F.Paste F.Mask))
   (pad 83 smd oval (at -2.54 14.37386) (size 0.70104 2.70002) (layers F.Cu F.Paste F.Mask))
   (pad 84 smd oval (at -1.27 14.37386) (size 0.70104 2.70002) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_plcc/plcc84.wrl
+  (model ${KISYS3DMOD}/walter/smd_plcc.3dshapes/plcc84.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

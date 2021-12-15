@@ -179,7 +179,7 @@
   (pad A5 thru_hole circle (at -9.395 -9.525) (size 1 1) (drill 0.5) (layers *.Cu *.Mask F.SilkS))
   (pad A4 thru_hole circle (at -10.665 -9.525) (size 1 1) (drill 0.5) (layers *.Cu *.Mask F.SilkS))
   (pad A3 thru_hole circle (at -11.935 -9.525) (size 1 1) (drill 0.5) (layers *.Cu *.Mask F.SilkS))
-  (model walter/pga/cpga149.wrl
+  (model ${KISYS3DMOD}/walter/pga.3dshapes/cpga149.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

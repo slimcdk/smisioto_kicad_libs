@@ -1,5 +1,6 @@
 (module panelmate_smd_8 (layer F.Cu)
   (descr "PanelMate connector 8-way, Molex P/N 53780-0870")
+  (attr smd)
   (fp_text reference panelmate_smd_8 (at 0 4.20116) (layer F.SilkS)
     (effects (font (size 1.00076 1.00076) (thickness 0.20066)))
   )
@@ -52,7 +53,7 @@
   (pad 6 smd rect (at 1.87452 -3.50012) (size 0.8001 1.89992) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at 3.1242 -3.50012) (size 0.8001 1.89992) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at 4.37388 -3.50012) (size 0.8001 1.89992) (layers F.Cu F.Paste F.Mask))
-  (model walter/conn_panelmate/panelmate_smd_8.wrl
+  (model ${KISYS3DMOD}/walter/conn_panelmate.3dshapes/panelmate_smd_8.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

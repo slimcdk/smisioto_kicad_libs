@@ -1,5 +1,6 @@
 (module bb080_78 (layer F.Cu)
   (descr "Smd dual-row strip connector, 39x2 pin, GCT BB080 series")
+  (attr smd)
   (fp_text reference JP*** (at 0 -3.59918) (layer F.SilkS)
     (effects (font (size 0.99822 0.99822) (thickness 0.19812)))
   )
@@ -88,7 +89,7 @@
   (pad 56 smd rect (at 6.39318 -1.73228) (size 0.4953 2.12598) (layers F.Cu F.Paste F.Mask))
   (pad 59 smd rect (at 7.99846 1.73228) (size 0.4953 2.12598) (layers F.Cu F.Paste F.Mask))
   (pad 58 smd rect (at 7.19836 -1.73228) (size 0.4953 2.12598) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_strip/BB080_78.wrl
+  (model ${KISYS3DMOD}/walter/smd_strip.3dshapes/BB080_78.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

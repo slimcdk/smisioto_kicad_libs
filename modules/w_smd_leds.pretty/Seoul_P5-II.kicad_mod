@@ -1,5 +1,6 @@
 (module Seoul_P5-II (layer F.Cu)
   (descr "Seoul P5-II")
+  (attr smd)
   (fp_text reference LD? (at 0 -2.99974) (layer F.SilkS)
     (effects (font (size 0.52324 0.52324) (thickness 0.09906)))
   )
@@ -19,7 +20,7 @@
   (pad 5 smd rect (at -2.55016 0) (size 0.59944 1.19888) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at -2.55016 -1.82626) (size 0.59944 1.04902) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at 0 0) (size 3.50012 4.699) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_leds/seoul_p5-ii.wrl
+  (model ${KISYS3DMOD}/walter/smd_leds.3dshapes/seoul_p5-ii.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

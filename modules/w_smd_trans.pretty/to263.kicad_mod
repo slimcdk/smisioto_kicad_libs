@@ -1,5 +1,6 @@
 (module to263 (layer F.Cu) (tedit 5B4E0F82)
   (descr to263)
+  (attr smd)
   (fp_text reference Q? (at 0 -10) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
@@ -59,7 +60,7 @@
     (solder_paste_margin -0.1))
   (pad 4 smd rect (at 4.05 0.49) (size 2.7 2.6) (layers F.Cu F.Paste F.Mask)
     (solder_paste_margin -0.1))
-  (model walter/smd_trans/to263.wrl
+  (model ${KISYS3DMOD}/walter/smd_trans.3dshapes/to263.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

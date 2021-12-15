@@ -1,5 +1,6 @@
 (module htssop-14 (layer F.Cu) (tedit 601657AC)
   (descr HTSSOP-14)
+  (attr smd)
   (fp_text reference U*** (at 0 -4.5) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.16)))
   )
@@ -26,7 +27,7 @@
   (pad 13 smd rect (at -1.3 -2.97) (size 0.42 1.78) (layers F.Cu F.Paste F.Mask))
   (pad 14 smd rect (at -1.95 -2.97) (size 0.42 1.78) (layers F.Cu F.Paste F.Mask))
   (pad 15 smd rect (at 0 0) (size 3.1 3) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_dil/htssop-14.wrl
+  (model ${KISYS3DMOD}/walter/smd_dil.3dshapes/htssop-14.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

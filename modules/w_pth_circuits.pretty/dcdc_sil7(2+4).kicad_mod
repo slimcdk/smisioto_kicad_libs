@@ -17,7 +17,7 @@
   (pad 5 thru_hole oval (at 2.54 0) (size 1.6 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad 6 thru_hole oval (at 5.08 0) (size 1.6 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad 7 thru_hole oval (at 7.62 0) (size 1.6 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (model "walter/pth_circuits/dcdc_sil7(2+4).wrl"
+  (model "${KISYS3DMOD}/walter/pth_circuits.3dshapes/dcdc_sil7(2+4).wrl"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,5 +1,6 @@
 (module lqfp32 (layer F.Cu)
   (descr LQFP-32)
+  (attr smd)
   (fp_text reference LQFP-32 (at 0 1.143) (layer F.SilkS)
     (effects (font (size 0.7493 0.7493) (thickness 0.14986)))
   )
@@ -59,7 +60,7 @@
   (pad 30 smd rect (at -4.09956 1.19888) (size 1.30048 0.55118) (layers F.Cu F.Paste F.Mask))
   (pad 31 smd rect (at -4.09956 1.99898) (size 1.30048 0.55118) (layers F.Cu F.Paste F.Mask))
   (pad 32 smd rect (at -4.09956 2.79908) (size 1.30048 0.55118) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_lqfp/lqfp-32.wrl
+  (model ${KISYS3DMOD}/walter/smd_lqfp.3dshapes/lqfp-32.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

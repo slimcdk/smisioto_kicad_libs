@@ -3,141 +3,323 @@ Kicad Libraries Changelog
 + = added  - = removed  M = modified  R = moved to another library  A = moved from another library
 Dates are in YYYYMMDD format
 
-#20210520
-  M w_connectors
-    + DIN41612-32-AC
-    + DIN41612-64-AC
-    + DIN41612-96-ABC
-  M w_logic
-    + 4013
-    + 4046
-    + 4049
-    + 4052
-    + 4066
-    + 4081
-    + 40106
-    + 4503
-    + 4528
-    - 74lvc1g57
-    + sn74lvc1g06-sot
-    + sn74lvc1g38-sot
-    + sn74lvc1g57
-  M w_rtx
-    + ds8921
-  + mod_conn_din41612
-  + mod_conn_mc
+#20211215
+  - mod_pin_strip
+  + mod_pin_strip_2mm54
+    + pin_socket_1-90
+    + pin_socket_1x2
+    + pin_socket_1x2-90
+    + pin_socket_2-90
+    + pin_socket_3-90
+    + pin_socket_4-90
+    + pin_socket_5-90
+    + pin_socket_6-90
+    + pin_socket_7-90
+    + pin_socket_8-90
+    + pin_socket_9-90
+    + pin_socket_10-90
+    + pin_socket_11-90
+    + pin_socket_12-90
+    + pin_socket_13-90
+    + pin_socket_14-90
+    + pin_socket_15-90
+    + pin_socket_16-90
+    + pin_socket_17-90
+    + pin_socket_18-90
+    + pin_socket_19-90
+    + pin_socket_20-90
+    + pin_socket_21
+    + pin_socket_21-90
+    + pin_socket_22
+    + pin_socket_22-90
+    + pin_socket_23
+    + pin_socket_23-90
+    + pin_socket_24
+    + pin_socket_24-90
+    + pin_socket_25
+    + pin_socket_25-90
+    + pin_socket_26
+    + pin_socket_26-90
+    + pin_socket_27
+    + pin_socket_27-90
+    + pin_socket_28
+    + pin_socket_28-90
+    + pin_socket_29
+    + pin_socket_29-90
+    + pin_socket_30
+    + pin_socket_30-90
+    + pin_socket_31
+    + pin_socket_31-90
+    + pin_socket_32
+    + pin_socket_32-90
+    + pin_socket_33
+    + pin_socket_33-90
+    + pin_socket_34
+    + pin_socket_34-90
+    + pin_socket_35
+    + pin_socket_35-90
+    + pin_socket_36
+    + pin_socket_36-90
+    + pin_socket_37
+    + pin_socket_37-90
+    + pin_socket_38
+    + pin_socket_38-90
+    + pin_socket_39
+    + pin_socket_39-90
+    + pin_socket_40
+    + pin_socket_40-90
+    + pin_strip_1x2
+    + pin_strip_21
+    + pin_strip_21-90
+    + pin_strip_22
+    + pin_strip_22-90
+    + pin_strip_23
+    + pin_strip_23-90
+    + pin_strip_24
+    + pin_strip_24-90
+    + pin_strip_25
+    + pin_strip_25-90
+    + pin_strip_26
+    + pin_strip_26-90
+    + pin_strip_27
+    + pin_strip_27-90
+    + pin_strip_28
+    + pin_strip_28-90
+    + pin_strip_29
+    + pin_strip_29-90
+    + pin_strip_30
+    + pin_strip_30-90
+    + pin_strip_31
+    + pin_strip_31-90
+    + pin_strip_32
+    + pin_strip_32-90
+    + pin_strip_33
+    + pin_strip_33-90
+    + pin_strip_34
+    + pin_strip_34-90
+    + pin_strip_35
+    + pin_strip_35-90
+    + pin_strip_36
+    + pin_strip_36-90
+    + pin_strip_37
+    + pin_strip_37-90
+    + pin_strip_38
+    + pin_strip_38-90
+    + pin_strip_39
+    + pin_strip_39-90
+    + pin_strip_40
+    + pin_strip_40-90
+  + mod_pin_strip_2mm00
+  + mod_pin_strip_1mm27
+    + pin_socket_1.27mm_1
+    + pin_socket_1.27mm_1x2
+    + pin_socket_1.27mm_2
+    + pin_socket_1.27mm_2x2
+    + pin_socket_1.27mm_3
+    + pin_socket_1.27mm_3x2
+    + pin_socket_1.27mm_4
+    + pin_socket_1.27mm_4x2
+    + pin_socket_1.27mm_5
+    + pin_socket_1.27mm_5x2
+    + pin_socket_1.27mm_6
+    + pin_socket_1.27mm_6x2
+    + pin_socket_1.27mm_7
+    + pin_socket_1.27mm_7x2
+    + pin_socket_1.27mm_8
+    + pin_socket_1.27mm_8x2
+    + pin_socket_1.27mm_9
+    + pin_socket_1.27mm_9x2
+    + pin_socket_1.27mm_10
+    + pin_socket_1.27mm_10x2
+    + pin_socket_1.27mm_11
+    + pin_socket_1.27mm_11x2
+    + pin_socket_1.27mm_12
+    + pin_socket_1.27mm_12x2
+    + pin_socket_1.27mm_13
+    + pin_socket_1.27mm_13x2
+    + pin_socket_1.27mm_14
+    + pin_socket_1.27mm_14x2
+    + pin_socket_1.27mm_15
+    + pin_socket_1.27mm_15x2
+    + pin_socket_1.27mm_16
+    + pin_socket_1.27mm_16x2
+    + pin_socket_1.27mm_17
+    + pin_socket_1.27mm_17x2
+    + pin_socket_1.27mm_18
+    + pin_socket_1.27mm_18x2
+    + pin_socket_1.27mm_19
+    + pin_socket_1.27mm_19x2
+    + pin_socket_1.27mm_20
+    + pin_socket_1.27mm_20x2
+    + pin_socket_1.27mm_21
+    + pin_socket_1.27mm_21x2
+    + pin_socket_1.27mm_22
+    + pin_socket_1.27mm_22x2
+    + pin_socket_1.27mm_23
+    + pin_socket_1.27mm_23x2
+    + pin_socket_1.27mm_24
+    + pin_socket_1.27mm_24x2
+    + pin_socket_1.27mm_25
+    + pin_socket_1.27mm_25x2
+    + pin_socket_1.27mm_26
+    + pin_socket_1.27mm_26x2
+    + pin_socket_1.27mm_27
+    + pin_socket_1.27mm_27x2
+    + pin_socket_1.27mm_28
+    + pin_socket_1.27mm_28x2
+    + pin_socket_1.27mm_29
+    + pin_socket_1.27mm_29x2
+    + pin_socket_1.27mm_30
+    + pin_socket_1.27mm_30x2
+    + pin_socket_1.27mm_31
+    + pin_socket_1.27mm_31x2
+    + pin_socket_1.27mm_32
+    + pin_socket_1.27mm_32x2
+    + pin_socket_1.27mm_33
+    + pin_socket_1.27mm_33x2
+    + pin_socket_1.27mm_34
+    + pin_socket_1.27mm_34x2
+    + pin_socket_1.27mm_35
+    + pin_socket_1.27mm_35x2
+    + pin_socket_1.27mm_36
+    + pin_socket_1.27mm_36x2
+    + pin_socket_1.27mm_37
+    + pin_socket_1.27mm_37x2
+    + pin_socket_1.27mm_38
+    + pin_socket_1.27mm_38x2
+    + pin_socket_1.27mm_39
+    + pin_socket_1.27mm_39x2
+    + pin_socket_1.27mm_40
+    + pin_socket_1.27mm_40x2
+    + pin_socket_1.27mm_41
+    + pin_socket_1.27mm_41x2
+    + pin_socket_1.27mm_42
+    + pin_socket_1.27mm_42x2
+    + pin_socket_1.27mm_43
+    + pin_socket_1.27mm_43x2
+    + pin_socket_1.27mm_44
+    + pin_socket_1.27mm_44x2
+    + pin_socket_1.27mm_45
+    + pin_socket_1.27mm_45x2
+    + pin_socket_1.27mm_46
+    + pin_socket_1.27mm_46x2
+    + pin_socket_1.27mm_47
+    + pin_socket_1.27mm_47x2
+    + pin_socket_1.27mm_48
+    + pin_socket_1.27mm_48x2
+    + pin_socket_1.27mm_49
+    + pin_socket_1.27mm_49x2
+    + pin_socket_1.27mm_50
+    + pin_socket_1.27mm_50x2
+    + pin_strip_1.27mm_1
+    + pin_strip_1.27mm_1x2
+    + pin_strip_1.27mm_2
+    + pin_strip_1.27mm_3
+    + pin_strip_1.27mm_4
+    + pin_strip_1.27mm_5
+    + pin_strip_1.27mm_6
+    + pin_strip_1.27mm_7
+    + pin_strip_1.27mm_8
+    + pin_strip_1.27mm_9
+    + pin_strip_1.27mm_10
+    + pin_strip_1.27mm_11
+    + pin_strip_1.27mm_12
+    + pin_strip_1.27mm_13
+    + pin_strip_1.27mm_14
+    + pin_strip_1.27mm_15
+    + pin_strip_1.27mm_16
+    + pin_strip_1.27mm_17
+    + pin_strip_1.27mm_18
+    + pin_strip_1.27mm_19
+    + pin_strip_1.27mm_20
+    + pin_strip_1.27mm_21
+    + pin_strip_1.27mm_22
+    + pin_strip_1.27mm_23
+    + pin_strip_1.27mm_24
+    + pin_strip_1.27mm_25
+    + pin_strip_1.27mm_26
+    + pin_strip_1.27mm_27
+    + pin_strip_1.27mm_28
+    + pin_strip_1.27mm_29
+    + pin_strip_1.27mm_30
+    + pin_strip_1.27mm_31
+    + pin_strip_1.27mm_32
+    + pin_strip_1.27mm_33
+    + pin_strip_1.27mm_34
+    + pin_strip_1.27mm_35
+    + pin_strip_1.27mm_36
+    + pin_strip_1.27mm_37
+    + pin_strip_1.27mm_38
+    + pin_strip_1.27mm_39
+    + pin_strip_1.27mm_40
+    + pin_strip_1.27mm_41
+    + pin_strip_1.27mm_42
+    + pin_strip_1.27mm_43
+    + pin_strip_1.27mm_44
+    + pin_strip_1.27mm_45
+    + pin_strip_1.27mm_46
+    + pin_strip_1.27mm_47
+    + pin_strip_1.27mm_48
+    + pin_strip_1.27mm_49
+    + pin_strip_1.27mm_50
+  (updated all 3D libraries names adding the "3dshapes" extension, fixed PTH/SMD/Virtual footprint attributes)
+  M mod_battery_holders
+  M mod_capacitors
+  M mod_conn_5px5mra37
+  M mod_conn_5251
+  M mod_conn_9159
+  M mod_conn_av
+  M mod_conn_d-sub
+  M mod_conn_df12
+  M mod_conn_df13
+  M mod_conn_din41612
+  M mod_conn_ftsh
+  M mod_conn_gmkds
+  M mod_conn_jst-ph
+  M mod_conn_kk100
+  M mod_conn_kk156
+  M mod_conn_mc
+  M mod_conn_misc
+  M mod_conn_mkds
   M mod_conn_modu
-    M amp-modu-2
-    + amp-modu-2-90
-    + amp-modu-2x4
-    + amp-modu-2x4-90
-    + amp-modu-2x5-90
-    + amp-modu-2x6-90
-    + amp-modu-2x8
-    + amp-modu-2x8-90
-    + amp-modu-2x9
-    + amp-modu-2x9-90
-    + amp-modu-2x12
-    + amp-modu-2x12-90
-    + amp-modu-2x15
-    + amp-modu-2x15-90
-    + amp-modu-2x18
-    + amp-modu-2x18-90
-    + amp-modu-2x22
-    + amp-modu-2x22-90
-    M amp-modu-4
-    + amp-modu-4-90
-    M amp-modu-6
-    + amp-modu-6-90
-    M amp-modu-8
-    + amp-modu-8-90
-    M amp-modu-9
-    + amp-modu-9-90
-    M amp-modu-10
-    + amp-modu-10-90
-    M amp-modu-12
-    + amp-modu-12-90
-    M amp-modu-15
-    + amp-modu-15-90
-    M amp-modu-22
-    + amp-modu-22-90
-  + mod_conn_mstb
-    + mstba 2,5-2-g-5,08
-    + mstba 2,5-3-g-5,08
-    + mstba 2,5-4-g-5,08
-    + mstba 2,5-5-g-5,08
-    + mstba 2,5-6-g-5,08
-    + mstba 2,5-7-g-5,08
-    + mstba 2,5-8-g-5,08
-    + mstba 2,5-9-g-5,08
-    + mstba 2,5-10-g-5,08
-    + mstba 2,5-11-g-5,08
-    + mstba 2,5-12-g-5,08
-    + mstbva 2,5-2-g-5,08
-    + mstbva 2,5-3-g-5,08
-    + mstbva 2,5-4-g-5,08
-    + mstbva 2,5-5-g-5,08
-    + mstbva 2,5-6-g-5,08
-    + mstbva 2,5-7-g-5,08
-    + mstbva 2,5-8-g-5,08
-    + mstbva 2,5-9-g-5,08
-    + mstbva 2,5-10-g-5,08
-    + mstbva 2,5-11-g-5,08
-    + mstbva 2,5-12-g-5,08
-  + mod_conn_redcube
+  M mod_conn_mpt
+  M mod_conn_mstb
+  M mod_conn_panelmate
+  M mod_conn_pc
+  M mod_conn_pt-1,5
+  M mod_conn_redcube
+  M mod_conn_rf
+  M mod_conn_samtec-tsm
   M mod_conn_screw
-    - mstba 2,5-2-g-5,08
-    - mstba 2,5-3-g-5,08
-    - mstba 2,5-4-g-5,08
-    - mstba 2,5-5-g-5,08
-    - mstba 2,5-6-g-5,08
-    - mstba 2,5-7-g-5,08
-    - mstba 2,5-8-g-5,08
-    - mstba 2,5-9-g-5,08
-    - mstba 2,5-10-g-5,08
-    - mstba 2,5-11-g-5,08
-    - mstba 2,5-12-g-5,08
-    - mstbva 2,5-2-g-5,08
-    - mstbva 2,5-3-g-5,08
-    - mstbva 2,5-4-g-5,08
-    - mstbva 2,5-5-g-5,08
-    - mstbva 2,5-6-g-5,08
-    - mstbva 2,5-7-g-5,08
-    - mstbva 2,5-8-g-5,08
-    - mstbva 2,5-9-g-5,08
-    - mstbva 2,5-10-g-5,08
-    - mstbva 2,5-11-g-5,08
-    - mstbva 2,5-12-g-5,08
+  M mod_conn_strip
+  M mod_crystal
+  M mod_details
+  M mod_indicators
+  M mod_logo
   M mod_misc_comp
-    + recom_roe
+  M mod_misc_rf
+  M mod_pga
+  M mod_pth_circuits
+  M mod_pth_diodes
+  M mod_pth_plcc
+  M mod_pth_resistors
+  M mod_relay
+  M mod_rf_modules
+  M mod_smd_bga
+  M mod_smd_cap
+  M mod_smd_dil
+  M mod_smd_diode
   M mod_smd_inductors
-    + inductor_smd_1812
-  M mod_smd_resistors
-    + trim_bi_35
-
-#20210223
-  M w_analog
-    + LTC6362-MS8
-    + LTC6362-DD
-    M OPA2227
-    + OPA2277-DIP
-    + OPA2277-DRM
-  M w_microcontrollers
-    + AVR32DB28
-    + AVR32DB32
-    + AVR32DB48
-    + AVR64DB28
-    + AVR64DB32
-    + AVR64DB48
-    + AVR64DB64
-    + AVR128DB28
-    + AVR128DB32
-    + AVR128DB48
-    + AVR128DB64
+  M mod_smd_leds
+  M mod_smd_lqfp
+  M mod_smd_plcc
   M mod_smd_qfn
-    + dfn8-dd
-    + s-pdso-n8
-    + vqfn-48-6x6
+  M mod_smd_resistors
+  M mod_smd_strip
+  M mod_smd_trans
+  M mod_switch
+  M mod_to
+  M mod_vacuum
 
 #20210131
   M w_microcontrollers

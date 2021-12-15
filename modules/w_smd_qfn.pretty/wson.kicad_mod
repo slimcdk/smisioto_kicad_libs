@@ -1,5 +1,6 @@
 (module wson (layer F.Cu) (tedit 55055E8F)
   (descr "Plastic QFP, TI WSON")
+  (attr smd)
   (fp_text reference wson (at 0 2.5) (layer F.SilkS)
     (effects (font (size 0.50038 0.50038) (thickness 0.09906)))
   )
@@ -34,7 +35,7 @@
     (solder_mask_margin 0.06858))
   (pad 9 smd rect (at 0 0) (size 3 2.2) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.06858) (solder_paste_margin -0.09906))
-  (model walter/smd_qfn/wson.wrl
+  (model ${KISYS3DMOD}/walter/smd_qfn.3dshapes/wson.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

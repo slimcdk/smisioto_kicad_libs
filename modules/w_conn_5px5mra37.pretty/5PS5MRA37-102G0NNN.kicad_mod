@@ -1,5 +1,6 @@
 (module 5PS5MRA37-102G0NNN (layer F.Cu) (tedit 596F6E04)
   (descr "AMTEK P/N 5PS5MRA37-102G0NNN-00")
+  (attr smd)
   (fp_text reference CN*** (at 0 4.4) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
@@ -14,7 +15,7 @@
   (fp_line (start 0.5 -0.3) (end 0.5 -3.2) (layer F.SilkS) (width 0.254))
   (pad 1 smd rect (at -0.5 -2.5) (size 0.6 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.5 -2.5) (size 0.6 1.6) (layers F.Cu F.Paste F.Mask))
-  (model walter/conn_5px5mra37/5PS5MRA37-102G0NNN.wrl
+  (model ${KISYS3DMOD}/walter/conn_5px5mra37.3dshapes/5PS5MRA37-102G0NNN.wrl
     (at (xyz 0 -0.007874015748031498 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,5 +1,6 @@
 (module Logo_copper_CE_5x3.6mm (layer F.Cu)
   (descr "CE logo, 5x3.6mm")
+  (attr virtual)
   (fp_text reference G*** (at 0 0.1) (layer F.SilkS) hide
     (effects (font (size 0.09144 0.09144) (thickness 0.01778)))
   )

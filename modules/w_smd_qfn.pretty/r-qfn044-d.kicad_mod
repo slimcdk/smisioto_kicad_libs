@@ -1,6 +1,7 @@
 (module r-qfn044-d (layer F.Cu) (tedit 550557E1)
   (descr "Plastic QFP, Dream R-QFN044_D")
   (clearance 0.2)
+  (attr smd)
   (fp_text reference U*** (at 0 -4.25) (layer F.SilkS)
     (effects (font (size 0.39878 0.39878) (thickness 0.07874)))
   )
@@ -117,7 +118,7 @@
     (solder_mask_margin 0.07112))
   (pad 44 smd rect (at -3.3 2.5) (size 0.6 0.3) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.07112))
-  (model walter/smd_qfn/r-qfn044-d.wrl
+  (model ${KISYS3DMOD}/walter/smd_qfn.3dshapes/r-qfn044-d.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

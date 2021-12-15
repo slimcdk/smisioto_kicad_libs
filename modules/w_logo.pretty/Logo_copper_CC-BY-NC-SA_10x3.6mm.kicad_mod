@@ -1,5 +1,6 @@
 (module Logo_copper_CC-BY-NC-SA_10x3.6mm (layer F.Cu)
   (descr "CC BY-NC-SA logo, 10x3.6mm")
+  (attr virtual)
   (fp_text reference G*** (at 0.3 -1.4) (layer F.SilkS) hide
     (effects (font (size 0.1778 0.1778) (thickness 0.03556)))
   )

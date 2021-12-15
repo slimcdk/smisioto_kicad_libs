@@ -1,5 +1,6 @@
 (module lqfp80-05 (layer F.Cu)
   (descr "LQFP-80, 12x12 0.5mm pitch")
+  (attr smd)
   (fp_text reference LQFP-80_05 (at 0 1.143) (layer F.SilkS)
     (effects (font (size 1.00076 1.00076) (thickness 0.20066)))
   )
@@ -109,7 +110,7 @@
   (pad 54 smd rect (at -1.75 -6.7) (size 0.2 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 55 smd rect (at -2.25 -6.7) (size 0.2 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 56 smd rect (at -2.75 -6.7) (size 0.2 1.5) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_lqfp/lqfp-80_05.wrl
+  (model ${KISYS3DMOD}/walter/smd_lqfp.3dshapes/lqfp-80_05.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

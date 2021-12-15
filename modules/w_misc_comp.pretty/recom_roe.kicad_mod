@@ -14,7 +14,7 @@
   (pad 2 thru_hole oval (at -1.27 0) (size 1.5 2.2) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole oval (at 1.27 0) (size 1.5 2.2) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (pad 4 thru_hole oval (at 3.81 0) (size 1.5 2.2) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
-  (model ${KISYS3DMOD}/walter/misc_comp/recom_roe.wrl
+  (model ${KISYS3DMOD}/walter/misc_comp.3dshapes/recom_roe.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,5 +1,6 @@
 (module inductor_smd_0805 (layer F.Cu)
   (descr "Inductor SMD, 0805")
+  (attr smd)
   (fp_text reference L*** (at 0 -1.69926) (layer F.SilkS)
     (effects (font (size 0.7493 0.7493) (thickness 0.14986)))
   )
@@ -14,7 +15,7 @@
   (fp_line (start -1.50114 1.00076) (end -1.50114 -1.00076) (layer F.SilkS) (width 0.14986))
   (pad 1 smd rect (at -0.889 0) (size 1.016 1.778) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.889 0) (size 1.016 1.778) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_inductors/inductor_smd_0805.wrl
+  (model ${KISYS3DMOD}/walter/smd_inductors.3dshapes/inductor_smd_0805.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

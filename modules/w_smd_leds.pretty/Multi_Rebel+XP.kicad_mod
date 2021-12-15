@@ -1,5 +1,6 @@
 (module Multi_Rebel+XP (layer F.Cu)
   (descr "Multi footprint, Rebel+XP")
+  (attr smd)
   (fp_text reference LD? (at 0.70104 -2.10058) (layer F.SilkS)
     (effects (font (size 0.52324 0.52324) (thickness 0.09906)))
   )
@@ -39,12 +40,12 @@
     (solder_paste_margin -0.0508))
   (pad 2 smd rect (at -1.39954 0) (size 0.50038 3.29946) (layers F.Cu F.Paste F.Mask)
     (solder_paste_margin -0.0508))
-  (model walter/smd_leds/luxeon_rebel.wrl
+  (model ${KISYS3DMOD}/walter/smd_leds.3dshapes/luxeon_rebel.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model walter/smd_leds/cree_xp.wrl
+  (model ${KISYS3DMOD}/walter/smd_leds.3dshapes/cree_xp.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

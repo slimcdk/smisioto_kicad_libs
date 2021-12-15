@@ -1,5 +1,6 @@
 (module pvqfn-n48 (layer F.Cu) (tedit 55055D4E)
   (descr "Plastic QFP, TI S-PVQFN-N48")
+  (attr smd)
   (fp_text reference U*** (at 0 -4.39928) (layer F.SilkS)
     (effects (font (size 0.39878 0.39878) (thickness 0.07874)))
   )
@@ -132,7 +133,7 @@
     (solder_mask_margin 0.06858))
   (pad 48 smd rect (at -3.47218 2.74828) (size 0.84836 0.2794) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.06858))
-  (model walter/smd_qfn/s-pvqfn-n48.wrl
+  (model ${KISYS3DMOD}/walter/smd_qfn.3dshapes/s-pvqfn-n48.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -2,6 +2,7 @@
   (descr "2835/3528 + 3030 SMD led")
   (solder_mask_margin 0.1)
   (clearance 0.2)
+  (attr smd)
   (fp_text reference LD? (at 0 -2.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
@@ -46,7 +47,7 @@
     (solder_paste_margin -0.05))
   (pad 1 smd rect (at -1.11 0) (size 0.58 2.3) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.635 0) (size 1.53 2.3) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/walter/smd_leds/luxeon_2835.wrl
+  (model ${KISYS3DMOD}/walter/smd_leds.3dshapes/luxeon_2835.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

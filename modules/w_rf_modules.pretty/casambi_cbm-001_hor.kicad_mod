@@ -1,4 +1,5 @@
 (module casambi_cbm-001_hor (layer F.Cu) (tedit 5B446D96)
+  (attr smd)
   (fp_text reference REF** (at 0 -11.7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -34,7 +35,7 @@
   (pad 14 smd rect (at 5.85 -0.5) (size 2 1) (layers F.Cu F.Paste F.Mask))
   (pad 15 smd rect (at 5.85 -2) (size 2 1) (layers F.Cu F.Paste F.Mask))
   (pad 16 smd rect (at 5.85 -3.5) (size 2 1) (layers F.Cu F.Paste F.Mask))
-  (model walter/rf_modules/casambi_cbm001.wrl
+  (model ${KISYS3DMOD}/walter/rf_modules.3dshapes/casambi_cbm001.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

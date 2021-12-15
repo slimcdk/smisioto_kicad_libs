@@ -1,5 +1,6 @@
 (module fbga100-std (layer F.Cu) (tedit 54F8E51E)
   (descr "100 pin FineLine BGA (standard pin numbering)")
+  (attr smd)
   (fp_text reference U*** (at 0 -6) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
@@ -224,7 +225,7 @@
     (solder_mask_margin 0.07) (solder_paste_margin -0.05))
   (pad K10 smd circle (at 4.5 -4.5) (size 0.47 0.47) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.07) (solder_paste_margin -0.05))
-  (model walter/smd_bga/fbga100.wrl
+  (model ${KISYS3DMOD}/walter/smd_bga.3dshapes/fbga100.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

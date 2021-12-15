@@ -1,5 +1,6 @@
 (module spbgan324 (layer F.Cu) (tedit 54F8E167)
   (descr "324 pin Plastic BGA (TI S-PBGA-N324) (standard pin numbering)")
+  (attr smd)
   (fp_text reference U*** (at 0 -8.5) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
@@ -671,7 +672,7 @@
     (solder_mask_margin 0.07) (solder_paste_margin -0.05))
   (pad L18 smd circle (at -6.8 -1.2) (size 0.47 0.47) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.07) (solder_paste_margin -0.05))
-  (model walter/smd_bga/spbgan324.wrl
+  (model ${KISYS3DMOD}/walter/smd_bga.3dshapes/spbgan324.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,5 +1,6 @@
 (module bb02-hy16a (layer F.Cu)
   (descr "Smd strip connector, 16 pin, 2.54mm pitch")
+  (attr smd)
   (fp_text reference JP*** (at 0 -3.9) (layer F.SilkS)
     (effects (font (size 0.99822 0.99822) (thickness 0.19812)))
   )
@@ -42,7 +43,7 @@
   (pad 3 smd rect (at 13.97 1.525) (size 1.27 3.05) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 16.51 -1.525) (size 1.27 3.05) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 19.05 1.525) (size 1.27 3.05) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_strip/BB02-HY16A.wrl
+  (model ${KISYS3DMOD}/walter/smd_strip.3dshapes/BB02-HY16A.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

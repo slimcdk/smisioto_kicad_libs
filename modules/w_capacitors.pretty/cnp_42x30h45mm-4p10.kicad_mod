@@ -14,7 +14,7 @@
   (pad 2 thru_hole circle (at -18.75 -5.1) (size 2.75 2.75) (drill 1.25) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 18.75 5.1) (size 2.75 2.75) (drill 1.25) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -18.75 5.1) (size 2.75 2.75) (drill 1.25) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/walter/capacitors/cnp_42x30h45mm-4p10.wrl
+  (model ${KISYS3DMOD}/walter/capacitors.3dshapes/cnp_42x30h45mm-4p10.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

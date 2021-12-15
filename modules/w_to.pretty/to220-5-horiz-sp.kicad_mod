@@ -22,7 +22,7 @@
   (pad 4 thru_hole circle (at 1.7 10.55) (size 2.25 2.25) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole circle (at 0 8) (size 2.25 2.25) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at -1.7 10.55) (size 2.25 2.25) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
-  (model walter/to/to220-5_horiz.wrl
+  (model ${KISYS3DMOD}/walter/to.3dshapes/to220-5_horiz.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,5 +1,6 @@
 (module lfbga217 (layer F.Cu) (tedit 54F8E36B)
   (descr "217 pin Low Profile Fine Pitch BGA (mirrored pin numbering)")
+  (attr smd)
   (fp_text reference LFBGA-217 (at 0 8.7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
@@ -456,7 +457,7 @@
     (solder_mask_margin 0.07) (solder_paste_margin -0.05))
   (pad U17 smd circle (at 6.4 -6.4) (size 0.35 0.35) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.07) (solder_paste_margin -0.05))
-  (model walter/smd_bga/lfbga217.wrl
+  (model ${KISYS3DMOD}/walter/smd_bga.3dshapes/lfbga217.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

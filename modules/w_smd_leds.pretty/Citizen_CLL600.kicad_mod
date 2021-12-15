@@ -1,5 +1,6 @@
 (module Citizen_CLL600 (layer F.Cu)
   (descr Citizen_CLL600)
+  (attr smd)
   (fp_text reference LD? (at 0 -1.00076) (layer F.SilkS)
     (effects (font (size 0.8001 0.8001) (thickness 0.14986)))
   )

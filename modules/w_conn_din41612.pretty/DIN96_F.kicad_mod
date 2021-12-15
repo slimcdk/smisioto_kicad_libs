@@ -116,7 +116,7 @@
   (pad 30B thru_hole oval (at 0 34.29) (size 1.9 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 31B thru_hole oval (at 0 36.83) (size 1.9 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 32B thru_hole oval (at 0 39.37) (size 1.9 1.6) (drill 1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/walter/conn_din41612/DIN96_F.wrl
+  (model ${KISYS3DMOD}/walter/conn_din41612.3dshapes/DIN96_F.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

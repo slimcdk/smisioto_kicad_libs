@@ -1,5 +1,6 @@
 (module Nichia_T02A (layer F.Cu) (tedit 5B3CCE01)
   (descr "Nichia T02A")
+  (attr smd)
   (fp_text reference LD? (at 0 -1.1) (layer F.SilkS)
     (effects (font (size 0.8001 0.8001) (thickness 0.14986)))
   )
@@ -20,7 +21,7 @@
   (pad 2 smd rect (at 0.59 0) (size 0.45 0.7) (layers F.Paste))
   (pad 2 smd rect (at 0.56 0) (size 0.52 0.55) (layers F.Paste))
   (pad 2 smd trapezoid (at 0.22 0) (size 0.16 0.32) (rect_delta -0.23 0 ) (layers F.Paste))
-  (model ${KISYS3DMOD}/walter/smd_leds/nichia_t02a.wrl
+  (model ${KISYS3DMOD}/walter/smd_leds.3dshapes/nichia_t02a.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

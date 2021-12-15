@@ -1,5 +1,6 @@
 (module panelmate_smd_14 (layer F.Cu)
   (descr "PanelMate connector 14-way, Molex P/N 53780-1470")
+  (attr smd)
   (fp_text reference panelmate_smd_14 (at 0 4.20116) (layer F.SilkS)
     (effects (font (size 1.00076 1.00076) (thickness 0.20066)))
   )
@@ -76,7 +77,7 @@
   (pad 13 smd rect (at 6.87578 -3.50012) (size 0.8001 1.89992) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -8.12546 -3.50012) (size 0.8001 1.89992) (layers F.Cu F.Paste F.Mask))
   (pad 14 smd rect (at 8.12546 -3.50012) (size 0.8001 1.89992) (layers F.Cu F.Paste F.Mask))
-  (model walter/conn_panelmate/panelmate_smd_14.wrl
+  (model ${KISYS3DMOD}/walter/conn_panelmate.3dshapes/panelmate_smd_14.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,5 +1,6 @@
 (module Logo_silk_CE_10x7.2mm (layer F.Cu)
   (descr "CE logo, 10x7.2mm")
+  (attr virtual)
   (fp_text reference G*** (at 0 -0.4) (layer F.SilkS) hide
     (effects (font (size 0.18288 0.18288) (thickness 0.03556)))
   )

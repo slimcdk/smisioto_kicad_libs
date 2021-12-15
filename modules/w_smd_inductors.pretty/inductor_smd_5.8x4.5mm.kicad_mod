@@ -1,5 +1,6 @@
 (module inductor_smd_5.8x4.5mm (layer F.Cu) (tedit 5B631068)
   (descr "Inductor SMD, 5.8mm x h.4,5mm, Sumida CD54")
+  (attr smd)
   (fp_text reference L? (at 0 -4.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
@@ -13,7 +14,7 @@
   (fp_circle (center 1.8 -0.64968) (end 1.8 -0.40076) (layer F.SilkS) (width 0.381))
   (pad 1 smd rect (at 0 -1.925) (size 5.5 2.15) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0 1.925) (size 5.5 2.15) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_inductors/inductor_smd_5.8x4.5mm.wrl
+  (model ${KISYS3DMOD}/walter/smd_inductors.3dshapes/inductor_smd_5.8x4.5mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
