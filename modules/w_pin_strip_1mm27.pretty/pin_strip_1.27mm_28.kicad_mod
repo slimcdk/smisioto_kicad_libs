@@ -55,7 +55,7 @@
   (pad 26 thru_hole oval (at 14.605 0) (size 1.05 1.05) (drill 0.65) (layers *.Cu *.Mask F.SilkS))
   (pad 27 thru_hole oval (at 15.875 0) (size 1.05 1.05) (drill 0.65) (layers *.Cu *.Mask F.SilkS))
   (pad 28 thru_hole oval (at 17.145 0) (size 1.05 1.05) (drill 0.65) (layers *.Cu *.Mask F.SilkS))
-  (model ${KISYS3DMOD}/walter/pin_strip_1mm27.3dshapes/pin_strip_1.27mm_28.wrl
+  (model walter/pin_strip_1mm27.3dshapes/pin_strip_1.27mm_28.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

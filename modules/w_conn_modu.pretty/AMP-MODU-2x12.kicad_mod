@@ -43,7 +43,7 @@
   (pad 22 thru_hole oval (at 11.43 -1.27) (size 1.5 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad 23 thru_hole oval (at 13.97 1.27) (size 1.5 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad 24 thru_hole oval (at 13.97 -1.27) (size 1.5 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (model ${KISYS3DMOD}/walter/conn_modu.3dshapes/AMP_MODU_2x12.wrl
+  (model walter/conn_modu.3dshapes/AMP_MODU_2x12.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

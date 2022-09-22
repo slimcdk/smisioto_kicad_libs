@@ -59,7 +59,7 @@
   (pad 24 thru_hole oval (at -11.557 -13) (size 1.5 2.2) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (pad 25 thru_hole oval (at -15.113 -13) (size 1.5 2.2) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (pad 26 thru_hole oval (at -16.891 -13) (size 1.5 2.2) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
-  (model ${KISYS3DMOD}/walter/pth_circuits.3dshapes/spm26.wrl
+  (model walter/pth_circuits.3dshapes/spm26.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

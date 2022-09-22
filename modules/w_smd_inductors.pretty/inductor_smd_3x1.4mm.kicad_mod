@@ -26,7 +26,7 @@
   (pad 2 smd trapezoid (at -0.625 1.055) (size 0.4 0.6) (rect_delta 0.5 0 ) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd trapezoid (at 1.3975 1.27) (size 0.255 0.505) (rect_delta 0.255 0 ) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd trapezoid (at -1.3975 1.27 180) (size 0.255 0.505) (rect_delta 0.255 0 ) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/walter/smd_inductors.3dshapes/inductor_smd_3x1.4mm.wrl
+  (model walter/smd_inductors.3dshapes/inductor_smd_3x1.4mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

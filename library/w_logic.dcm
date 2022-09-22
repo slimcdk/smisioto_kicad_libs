@@ -1,12 +1,44 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 40106
+D 6-ch, 3-V to 18-V inverters with Schmitt-Trigger inputs
+$ENDCMP
+#
 $CMP 4013
 D Dual D-Type Flip-Flop
+$ENDCMP
+#
+$CMP 4046
+D CMOS Phase-Locked loop
+$ENDCMP
+#
+$CMP 4049
+D CMOS Hex Inverting Buffer and Converter
+$ENDCMP
+#
+$CMP 4052
+D 20-V, 4:1, 2-channel general-purpose multiplexer
+$ENDCMP
+#
+$CMP 4066
+D 20-V, 1:1 (SPST), 4-channel analog switch
+$ENDCMP
+#
+$CMP 4081
+D 4-ch, 2-input, 3-V to 18-V AND gates
 $ENDCMP
 #
 $CMP 4093
 D Quad 2-input NAND Schmitt Trigger, logic symbol
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Porte_logiche/NAND/NXP_HEF4093B.pdf
+$ENDCMP
+#
+$CMP 4503
+D 6-ch, 3-V to 18-V buffers
+$ENDCMP
+#
+$CMP 4528
+D Dual monostable multivibrator
 $ENDCMP
 #
 $CMP 7400
@@ -96,6 +128,10 @@ $ENDCMP
 $CMP 7474
 D Dual D-type flip-flop with Set and Reset; positive edge trigger
 F /mnt/dati/documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Flip-Flop/NXP_74HC-HCT74.pdf
+$ENDCMP
+#
+$CMP 74HC00
+D quad 2-input NAND gate
 $ENDCMP
 #
 $CMP 74HC08
@@ -214,6 +250,10 @@ $ENDCMP
 #
 $CMP SN74LVC1G57
 D Configurable Multiple-Function gate
+$ENDCMP
+#
+$CMP SN74LXCH8T24
+D 8-bit Translating Transceiver with Configurable Level Shifting
 $ENDCMP
 #
 #End Doc Library

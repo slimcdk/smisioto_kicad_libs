@@ -23,7 +23,7 @@
     (solder_paste_margin -0.05))
   (pad 2 smd rect (at 0.51 0) (size 1.82 1.63) (layers F.Cu F.Paste F.Mask)
     (solder_paste_margin -0.05))
-  (model ${KISYS3DMOD}/walter/smd_leds.3dshapes/luxeon_3020.wrl
+  (model walter/smd_leds.3dshapes/luxeon_3020.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

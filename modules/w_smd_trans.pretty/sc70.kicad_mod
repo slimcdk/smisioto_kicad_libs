@@ -1,10 +1,10 @@
-(module sc70 (layer F.Cu) (tedit 5B4EDDEC)
+(module sc70 (layer F.Cu) (tedit 6327EC9E)
   (descr SC70)
   (attr smd)
   (fp_text reference Q? (at 0 -2) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
-  (fp_text value SC70 (at 0 2) (layer F.SilkS)
+  (fp_text value SC70 (at 0 2) (layer F.SilkS) hide
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
   (fp_line (start 0 -0.6477) (end 0 -1.2065) (layer F.SilkS) (width 0.127))
@@ -17,7 +17,7 @@
   (pad 1 smd rect (at -0.66 1) (size 0.46 0.72) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 0.66 1) (size 0.46 0.72) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0 -1) (size 0.46 0.72) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/walter/smd_trans.3dshapes/sc70.wrl
+  (model walter/smd_trans.3dshapes/sc70.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

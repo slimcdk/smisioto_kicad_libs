@@ -267,7 +267,7 @@
     (solder_mask_margin 0.07) (solder_paste_margin -0.05))
   (pad K10 smd circle (at 3.2 -3.2) (size 0.3175 0.3175) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.07) (solder_paste_margin -0.05))
-  (model ${KISYS3DMOD}/walter/smd_bga.3dshapes/xbga121.wrl
+  (model walter/smd_bga.3dshapes/xbga121.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

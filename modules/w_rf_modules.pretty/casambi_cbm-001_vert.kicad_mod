@@ -27,7 +27,7 @@
   (pad 14 smd rect (at -1.905 -1.5) (size 1 2.2) (layers F.Cu F.Paste F.Mask))
   (pad 15 smd rect (at -3.175 -1.5) (size 1 2.2) (layers F.Cu F.Paste F.Mask))
   (pad 16 smd rect (at -4.445 -1.5) (size 1 2.2) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/walter/rf_modules.3dshapes/casambi_cbm001_vert.wrl
+  (model walter/rf_modules.3dshapes/casambi_cbm001_vert.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

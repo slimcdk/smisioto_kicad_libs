@@ -44,6 +44,11 @@ D Coto 9002 series relay
 K relay 9002
 $ENDCMP
 #
+$CMP RELAY_FTR-LYC
+D FTR-LY Form C relay
+K relay FTR-LY
+$ENDCMP
+#
 $CMP RELAY_GQ
 D 2 Form C relay, Panasonic GQ
 $ENDCMP
@@ -136,6 +141,14 @@ $ENDCMP
 #
 $CMP fotek_SSR
 D Fotek SSR type solid state relay
+$ENDCMP
+#
+$CMP relay_G5LE-1
+D Omron G5LE-1 Form C relay
+$ENDCMP
+#
+$CMP relay_G5LE-1A
+D Omron G5LE-1A Form A relay
 $ENDCMP
 #
 #End Doc Library

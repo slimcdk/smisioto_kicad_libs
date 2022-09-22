@@ -29,7 +29,7 @@
   (fp_line (start 4.8 8.1) (end 4.8 8.4) (layer F.SilkS) (width 0.12))
   (pad 2 thru_hole circle (at 1.905 0) (size 2.5 2.5) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole rect (at -1.905 0) (size 2.5 2.5) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
-  (model ${KISYS3DMOD}/walter/conn_mc.3dshapes/mc_1,5-2-g-3,81.wrl
+  (model walter/conn_mc.3dshapes/mc_1,5-2-g-3,81.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -20,7 +20,7 @@
   (pad 3 smd rect (at -5.7 -6.1) (size 2.4 2.8) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 5.7 -6.1) (size 2.4 2.8) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 5.7 0) (size 2.4 2.8) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/walter/conn_misc.3dshapes/dc_socket_pj-002bh-smt-tr.wrl
+  (model walter/conn_misc.3dshapes/dc_socket_pj-002bh-smt-tr.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

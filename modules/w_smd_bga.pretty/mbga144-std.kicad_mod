@@ -313,7 +313,7 @@
     (solder_mask_margin 0.07) (solder_paste_margin -0.05))
   (pad N1 smd circle (at 3 3) (size 0.3 0.3) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.07) (solder_paste_margin -0.05))
-  (model ${KISYS3DMOD}/walter/smd_bga.3dshapes/mbga144.wrl
+  (model walter/smd_bga.3dshapes/mbga144.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

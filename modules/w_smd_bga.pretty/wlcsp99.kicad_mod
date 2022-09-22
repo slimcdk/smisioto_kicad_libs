@@ -204,7 +204,7 @@
   (pad L7 smd circle (at 2.5 -1) (size 0.35 0.35) (layers F.Cu F.Paste F.Mask))
   (pad L9 smd circle (at 2.5 -2) (size 0.35 0.35) (layers F.Cu F.Paste F.Mask))
   (pad L8 smd circle (at 2.5 -1.5) (size 0.35 0.35) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/walter/smd_bga.3dshapes/wlcsp99.wrl
+  (model walter/smd_bga.3dshapes/wlcsp99.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

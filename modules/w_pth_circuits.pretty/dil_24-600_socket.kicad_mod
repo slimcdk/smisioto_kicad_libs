@@ -50,7 +50,7 @@
   (pad 22 thru_hole oval (at -8.89 -7.62) (size 1.5 2.2) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (pad 23 thru_hole oval (at -11.43 -7.62) (size 1.5 2.2) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (pad 24 thru_hole oval (at -13.97 -7.62) (size 1.5 2.2) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
-  (model ${KISYS3DMOD}/walter/pth_circuits.3dshapes/dil_24-600_socket.wrl
+  (model walter/pth_circuits.3dshapes/dil_24-600_socket.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

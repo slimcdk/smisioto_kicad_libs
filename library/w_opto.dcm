@@ -30,7 +30,6 @@ $ENDCMP
 #
 $CMP CPC1117N
 D Normally closed Solid State Relay
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Fotoisolatori/AC/CLA_CPC1117N.pdf
 $ENDCMP
 #
 $CMP Cree_MC-E
@@ -39,6 +38,14 @@ $ENDCMP
 #
 $CMP Cree_XHP50
 D Cree XHP-50 power LED
+$ENDCMP
+#
+$CMP DC_OPTO
+D DC Input Optocoupler
+$ENDCMP
+#
+$CMP DC_OPTO_FET
+D DC Input Optocoupler
 $ENDCMP
 #
 $CMP Edison_Federal_5050
@@ -101,7 +108,6 @@ $ENDCMP
 #
 $CMP SFH5712
 D High accuracy ambient light sensor with I2C bus interface
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Sensori/Luce/OSRAM_SFH5712.pdf
 $ENDCMP
 #
 $CMP Seoul_SFT825N

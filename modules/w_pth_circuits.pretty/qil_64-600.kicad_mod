@@ -80,7 +80,7 @@
   (pad 35 thru_hole oval (at 17.145 -11.7475) (size 1.5 2.2) (drill 0.8 (offset 0 -0.4)) (layers *.Cu *.Mask F.SilkS))
   (pad 34 thru_hole oval (at 18.415 -9.5) (size 1.5 2.2) (drill 0.8 (offset 0 0.4)) (layers *.Cu *.Mask F.SilkS))
   (pad 33 thru_hole oval (at 19.685 -11.7475) (size 1.5 2.2) (drill 0.8 (offset 0 -0.4)) (layers *.Cu *.Mask F.SilkS))
-  (model ${KISYS3DMOD}/walter/pth_circuits.3dshapes/qil_64-600.wrl
+  (model walter/pth_circuits.3dshapes/qil_64-600.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

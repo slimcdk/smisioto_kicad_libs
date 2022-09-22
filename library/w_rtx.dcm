@@ -5,6 +5,14 @@ D 8Devices Carambola 2 802.11 b/g/n Wireless Network module
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/8DEV_CARAMBOLA2.pdf
 $ENDCMP
 #
+$CMP ADUM1281
+D 3kV RMS Dual Channel Digital Isolators
+$ENDCMP
+#
+$CMP ADUM1286
+D 3kV RMS Dual Channel Digital Isolators
+$ENDCMP
+#
 $CMP ANAREN_A8520E24A91
 D Anaren A8520E24A91 PurePath Wireless module
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/Anaren/A8520E24A91_Users_Manual.pdf
@@ -46,6 +54,10 @@ $CMP DS8921
 D RS422/RS485 Transceiver
 $ENDCMP
 #
+$CMP ESP32-SOLO
+D Espressif 2.4 GHz Wi­Fi (802.11 b/g/n) module
+$ENDCMP
+#
 $CMP FT232BL
 D USB UART
 F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/FTDI_FT232BL.pdf
@@ -74,6 +86,10 @@ $ENDCMP
 $CMP ID_ID-2LA
 D ID-Innovation ID-2LA RFID module
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/ID_ID20.pdf
+$ENDCMP
+#
+$CMP ISO1042
+D Isolated CAN Transceiver With 70-V Bus Fault Protection and Flexible Data Rate
 $ENDCMP
 #
 $CMP ISO1500
@@ -263,6 +279,10 @@ $ENDCMP
 $CMP SP3226E
 D 3.0V to 5.5V RS-232 Transceivers with Auto On-Line Plus
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/EXAR_SP322xE.pdf
+$ENDCMP
+#
+$CMP TCAN1044V
+D Automotive Fault-Protected CAN FD Transceiver With 1.8-V I/O Support
 $ENDCMP
 #
 $CMP TXB0104-D
