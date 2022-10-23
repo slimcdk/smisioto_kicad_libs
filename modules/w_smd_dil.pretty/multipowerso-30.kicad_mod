@@ -1,11 +1,11 @@
-(module multipowerso-30 (layer F.Cu) (tedit 6016583B)
-  (descr MultiPowerSO-30)
+(module multipowerso-30 (layer F.Cu) (tedit 63368DA4)
+  (descr "MultiPowerSO-30 (ST)")
   (attr smd)
-  (fp_text reference MultiPowerSO-30 (at 0 -10.8) (layer F.SilkS)
-    (effects (font (size 0.7493 0.7493) (thickness 0.14986)))
+  (fp_text reference U? (at 0 -11) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)))
   )
-  (fp_text value U*** (at 0 10.7) (layer F.SilkS)
-    (effects (font (size 0.7493 0.7493) (thickness 0.14986)))
+  (fp_text value MultiPowerSO-30 (at 0 11) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.2)))
   )
   (fp_circle (center -7.3 6.7) (end -6.8 6.7) (layer F.SilkS) (width 1))
   (fp_line (start -8.6 -7.4) (end -8 -8) (layer F.SilkS) (width 0.254))
@@ -49,7 +49,7 @@
   (pad 28 smd rect (at -5 -9.1) (size 0.67 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 29 smd rect (at -6 -9.1) (size 0.67 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 30 smd rect (at -7 -9.1) (size 0.67 1.6) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_dil.3dshapes/multipowerso-30.wrl
+  (model ${KISYS3DMOD}/walter/smd_dil.3dshapes/multipowerso-30.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,11 +1,11 @@
 (module PCB_PUSH (layer F.Cu)
   (descr "PCB pushbutton, Tyco FSM6x6 series")
   (tags pushbutton)
-  (fp_text reference SW*** (at 0 -5.08) (layer F.SilkS)
+  (fp_text reference SW? (at 0 -5.08) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.3175)))
   )
   (fp_text value PCB_PUSH (at 0 5.588) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (fp_line (start -3.048 -3.048) (end 3.048 -3.048) (layer F.SilkS) (width 0.3048))
   (fp_line (start 3.048 -3.048) (end 3.048 3.048) (layer F.SilkS) (width 0.3048))
@@ -16,7 +16,7 @@
   (pad 2 thru_hole circle (at 2.25044 3.2512) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
   (pad 4 thru_hole circle (at 2.25044 -3.2512) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole circle (at -2.25044 3.2512) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
-  (model walter/switch.3dshapes/pcb_push.wrl
+  (model ${KISYS3DMOD}/walter/switch.3dshapes/pcb_push.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

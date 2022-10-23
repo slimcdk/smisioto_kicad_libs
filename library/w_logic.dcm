@@ -232,24 +232,288 @@ D Dual supply translating transceiver, auto direction sensing, 3-state
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Drivers/NXP_NTB0102.pdf
 $ENDCMP
 #
+$CMP SN74LVC1G00-SOT
+D Single 2-input NAND gate
+$ENDCMP
+#
+$CMP SN74LVC1G02-SOT
+D Single 2-input NOR gate
+$ENDCMP
+#
+$CMP SN74LVC1G04-SOT
+D Single inverter
+$ENDCMP
+#
 $CMP SN74LVC1G06-SOT
-D Single open-drain inverter
+D Single inverter with open-drain output
+$ENDCMP
+#
+$CMP SN74LVC1G07-SOT
+D Single buffer with open-drain output
+$ENDCMP
+#
+$CMP SN74LVC1G08-SOT
+D Single 2-input AND gate
+$ENDCMP
+#
+$CMP SN74LVC1G0832-SOT
+D Single 3-input AND-OR gate
+$ENDCMP
+#
+$CMP SN74LVC1G10-SOT
+D Single 3-input NAND gate
+$ENDCMP
+#
+$CMP SN74LVC1G11-SOT
+D Single 3-input AND gate
+$ENDCMP
+#
+$CMP SN74LVC1G123-DIL
+D Single retriggerable monostable multivibrator with Schmitt-trigger inputs
+$ENDCMP
+#
+$CMP SN74LVC1G125-SOT
+D Single buffer with 3-state outputs
+$ENDCMP
+#
+$CMP SN74LVC1G126-SOT
+D Single buffer with 3-state outputs
+$ENDCMP
+#
+$CMP SN74LVC1G132-SOT
+D Single 2-input NAND gate with Schmitt-trigger inputs
+$ENDCMP
+#
+$CMP SN74LVC1G139-DIL
+D 2-Line-to-4-Line decoder
 $ENDCMP
 #
 $CMP SN74LVC1G14-SOT
 D Single Schmitt-trigger inverter
 $ENDCMP
 #
+$CMP SN74LVC1G17-SOT
+D Single Schmitt-trigger buffer
+$ENDCMP
+#
+$CMP SN74LVC1G175-SOT
+D Single D-Type Flip-Flop with asynchronous clear
+$ENDCMP
+#
+$CMP SN74LVC1G18-SOT
+D One of Two non inverting Demultiplexer with 3-state deselected output
+$ENDCMP
+#
+$CMP SN74LVC1G19-SOT
+D One of Two Decoder/Demultiplexer
+$ENDCMP
+#
+$CMP SN74LVC1G240-SOT
+D Single inverter with 3-state outputs
+$ENDCMP
+#
+$CMP SN74LVC1G27-SOT
+D Single 3-input NOR gate
+$ENDCMP
+#
+$CMP SN74LVC1G29-DIL
+D 2-of-3 Decoder/Demultiplexer
+$ENDCMP
+#
 $CMP SN74LVC1G3157
 D Single-Pole Double-Throw Analog Switch
 $ENDCMP
 #
-$CMP SN74LVC1G38-SOT
-D Single 2-input NAND gate
+$CMP SN74LVC1G32-SOT
+D Single 2-input OR gate
 $ENDCMP
 #
-$CMP SN74LVC1G57
+$CMP SN74LVC1G3208-SOT
+D Single 3-input OR-AND gate
+$ENDCMP
+#
+$CMP SN74LVC1G332-SOT
+D Single 3-input OR gate
+$ENDCMP
+#
+$CMP SN74LVC1G34-SOT
+D Single buffer
+$ENDCMP
+#
+$CMP SN74LVC1G373-SOT
+D Single D-Type Latch with 3-state output
+$ENDCMP
+#
+$CMP SN74LVC1G374-SOT
+D Single D-Type Flip-Flop with asynchronous clear
+$ENDCMP
+#
+$CMP SN74LVC1G38-SOT
+D Single 2-input NAND gate with open-drain output
+$ENDCMP
+#
+$CMP SN74LVC1G386-SOT
+D Single 3-input XOR gate
+$ENDCMP
+#
+$CMP SN74LVC1G57-SOT
 D Configurable Multiple-Function gate
+$ENDCMP
+#
+$CMP SN74LVC1G58-SOT
+D Configurable Multiple-Function gate
+$ENDCMP
+#
+$CMP SN74LVC1G66-SOT
+D Single bilateral Analog Switch
+$ENDCMP
+#
+$CMP SN74LVC1G74-DIL
+D Single D-Type Flip-Flop with Clear and Preset
+$ENDCMP
+#
+$CMP SN74LVC1G79-SOT
+D Single D-Type Flip-Flop
+$ENDCMP
+#
+$CMP SN74LVC1G80-SOT
+D Single D-Type Flip-Flop
+$ENDCMP
+#
+$CMP SN74LVC1G86-SOT
+D Single 2-input XOR gate
+$ENDCMP
+#
+$CMP SN74LVC1G97-SOT
+D Configurable Multiple-Function gate
+$ENDCMP
+#
+$CMP SN74LVC1G98-SOT
+D Configurable Multiple-Function gate
+$ENDCMP
+#
+$CMP SN74LVC1G99-DIL
+D Ultra-Configurable Multiple-Function gate
+$ENDCMP
+#
+$CMP SN74LVC1T45-SOT
+D Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs
+$ENDCMP
+#
+$CMP SN74LVC2G00-DIL
+D Dual 2-input NAND gate
+$ENDCMP
+#
+$CMP SN74LVC2G02-DIL
+D Dual 2-input NOR gate
+$ENDCMP
+#
+$CMP SN74LVC2G04-SOT
+D Dual inverter
+$ENDCMP
+#
+$CMP SN74LVC2G06-SOT
+D Dual inverter with open-drain output
+$ENDCMP
+#
+$CMP SN74LVC2G07-SOT
+D Dual buffer with open-drain output
+$ENDCMP
+#
+$CMP SN74LVC2G08-DIL
+D Dual 2-input AND gate
+$ENDCMP
+#
+$CMP SN74LVC2G125-DIL
+D Dual buffer with 3-state outputs
+$ENDCMP
+#
+$CMP SN74LVC2G126-DIL
+D Dual buffer with 3-state outputs
+$ENDCMP
+#
+$CMP SN74LVC2G14-SOT
+D Dual Schmitt-trigger inverter
+$ENDCMP
+#
+$CMP SN74LVC2G157-DIL
+D Single 2-Line to 1-Line data Selector/Multiplexer
+$ENDCMP
+#
+$CMP SN74LVC2G17-SOT
+D Dual Schmitt-trigger buffer
+$ENDCMP
+#
+$CMP SN74LVC2G240-DIL
+D Dual inverter with 3-state outputs
+$ENDCMP
+#
+$CMP SN74LVC2G241-DIL
+D Dual buffer with 3-state outputs
+$ENDCMP
+#
+$CMP SN74LVC2G32-DIL
+D Dual 2-input OR gate
+$ENDCMP
+#
+$CMP SN74LVC2G34-SOT
+D Dual buffer
+$ENDCMP
+#
+$CMP SN74LVC2G38-DIL
+D Dual 2-input NAND gate with open-drain output
+$ENDCMP
+#
+$CMP SN74LVC2G53-DIL
+D Single-Pole Double-Throw Analog Switch
+$ENDCMP
+#
+$CMP SN74LVC2G66-DIL
+D Dual bilateral Analog Switch
+$ENDCMP
+#
+$CMP SN74LVC2G74-DIL
+D Single D-Type Flip-Flop with Clear and Preset
+$ENDCMP
+#
+$CMP SN74LVC2G79-DIL
+D Dual D-Type Flip-Flop
+$ENDCMP
+#
+$CMP SN74LVC2G80-DIL
+D Dual D-Type Flip-Flop
+$ENDCMP
+#
+$CMP SN74LVC2G86-DIL
+D Dual 2-input XOR gate
+$ENDCMP
+#
+$CMP SN74LVC2T45-DIL
+D Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs
+$ENDCMP
+#
+$CMP SN74LVC3G04-DIL
+D Triple inverter
+$ENDCMP
+#
+$CMP SN74LVC3G06-DIL
+D Triple inverter with open-drain output
+$ENDCMP
+#
+$CMP SN74LVC3G07-DIL
+D Triple buffer with open-drain output
+$ENDCMP
+#
+$CMP SN74LVC3G14-DIL
+D Triple Schmitt-trigger inverter
+$ENDCMP
+#
+$CMP SN74LVC3G17-DIL
+D Triple Schmitt-trigger buffer
+$ENDCMP
+#
+$CMP SN74LVC3G34-DIL
+D Triple buffer
 $ENDCMP
 #
 $CMP SN74LXCH8T24

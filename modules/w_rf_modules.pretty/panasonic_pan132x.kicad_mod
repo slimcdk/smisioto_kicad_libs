@@ -1,10 +1,10 @@
 (module panasonic_pan132x (layer F.Cu)
   (descr "Panasonic PAN132x Bluetooth module")
   (attr smd)
-  (fp_text reference U*** (at 0 -7.2) (layer F.SilkS)
+  (fp_text reference U? (at 0 -7.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
-  (fp_text value Panasonic_PAN132x (at 0 4.2) (layer F.SilkS)
+  (fp_text value Panasonic_PAN132x (at 0 4.2) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (fp_line (start -4.5 -6.25) (end 4.5 -6.25) (layer F.SilkS) (width 0.254))

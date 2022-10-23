@@ -1,8 +1,8 @@
 (module casambi_cbm-001_vert (layer F.Cu) (tedit 56129686)
-  (fp_text reference REF** (at 0 -3.5) (layer F.SilkS)
+  (fp_text reference U? (at 0 -3.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value casambi_cbm-001_vert (at 0 3.5) (layer F.SilkS)
+  (fp_text value casambi_cbm-001_vert (at 0 3.5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_arc (start 6.35 0) (end 6.35 -0.45) (angle 90) (layer F.SilkS) (width 0.15))

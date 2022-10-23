@@ -2,7 +2,6 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP 8Devices_Carambola2
 D 8Devices Carambola 2 802.11 b/g/n Wireless Network module
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/8DEV_CARAMBOLA2.pdf
 $ENDCMP
 #
 $CMP ADUM1281
@@ -15,7 +14,6 @@ $ENDCMP
 #
 $CMP ANAREN_A8520E24A91
 D Anaren A8520E24A91 PurePath Wireless module
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/Anaren/A8520E24A91_Users_Manual.pdf
 $ENDCMP
 #
 $CMP Anaren_A1101R04C
@@ -54,38 +52,68 @@ $CMP DS8921
 D RS422/RS485 Transceiver
 $ENDCMP
 #
+$CMP ESP32-MINI-1
+D Espressif ESP32-MINI-1 2.4 GHz Wi­Fi (802.11 b/g/n) module
+$ENDCMP
+#
+$CMP ESP32-MINI-1U
+D Espressif ESP32-MINI-1U 2.4 GHz Wi­Fi (802.11 b/g/n) module
+$ENDCMP
+#
+$CMP ESP32-PICO-MINI-02
+D Espressif ESP32-PICO-MINI-02 2.4 GHz Wi­Fi (802.11 b/g/n) module
+$ENDCMP
+#
+$CMP ESP32-PICO-MINI-02U
+D Espressif ESP32-PICO-MINI-02U 2.4 GHz Wi­Fi (802.11 b/g/n) module
+$ENDCMP
+#
 $CMP ESP32-SOLO
-D Espressif 2.4 GHz Wi­Fi (802.11 b/g/n) module
+D Espressif ESP32-S2-SOLO/-U 2.4 GHz Wi­Fi (802.11 b/g/n) module
+$ENDCMP
+#
+$CMP ESP32-WROOM-32E
+D Espressif ESP32-WROOM-32E 2.4 GHz Wi­Fi (802.11 b/g/n) module
+$ENDCMP
+#
+$CMP ESP32-WROOM-32UE
+D Espressif ESP32-WROOM-32UE 2.4 GHz Wi­Fi (802.11 b/g/n) module
+$ENDCMP
+#
+$CMP ESP32-WROOM-DA
+D Espressif ESP32-WROOM-DA 2.4 GHz Wi­Fi (802.11 b/g/n) module
+$ENDCMP
+#
+$CMP ESP32-WROVER-E
+D Espressif ESP32-WROVER-E 2.4 GHz Wi­Fi (802.11 b/g/n) module
+$ENDCMP
+#
+$CMP ESP32-WROVER-IE
+D Espressif ESP32-WROVER-IE 2.4 GHz Wi­Fi (802.11 b/g/n) module
 $ENDCMP
 #
 $CMP FT232BL
 D USB UART
-F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/FTDI_FT232BL.pdf
 $ENDCMP
 #
 $CMP FT232RL
 D USB2 UART
-F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/FTDI_FT232R.pdf
 $ENDCMP
 #
 $CMP FT245RL
 D USB2 FIFO
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/FTDI_FT245R.pdf
 $ENDCMP
 #
 $CMP ID_ID-12LA
 D ID-Innovation ID-12LA RFID module
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/ID_ID20.pdf
 $ENDCMP
 #
 $CMP ID_ID-20LA
 D ID-Innovation ID-20LA RFID module
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/ID_ID20.pdf
 $ENDCMP
 #
 $CMP ID_ID-2LA
 D ID-Innovation ID-2LA RFID module
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/ID_ID20.pdf
 $ENDCMP
 #
 $CMP ISO1042
@@ -98,67 +126,54 @@ $ENDCMP
 #
 $CMP ITEAD_HC-05
 D Itead HC-05 serial Bluetooth module
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Ibridi/ITEAD_HC-05.pdf
 $ENDCMP
 #
 $CMP KSZ8081RN
 D 10Base-T/100Base-TX PHY with RMII support
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/MREL_KSZ8081RN.pdf
 $ENDCMP
 #
 $CMP M145026
 D Remote control encoder
-F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/ST_M145026-27-28.pdf
 $ENDCMP
 #
 $CMP M145027
 D Remote control encoder
-F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/ST_M145026-27-28.pdf
 $ENDCMP
 #
 $CMP MAX232
 D RS232 driver-receiver
-F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/MAX_MAX220-MAX249.pdf
 $ENDCMP
 #
 $CMP MAX3030E
 D 15KV ESD-protected, 3.3V quad RS-422 transmitters
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/MAX_MAX3030E-MAX3033E.pdf
 $ENDCMP
 #
 $CMP MAX3032E
 D 15KV ESD-protected, 3.3V quad RS-422 transmitters
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/MAX_MAX3030E-MAX3033E.pdf
 $ENDCMP
 #
 $CMP MAX3093E
 D 15KV ESD-protected, 10Mbps, 3V/5V Low power quad RS-422/RS-485 receivers
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/MAX_MAX3093E-MAX3094E.pdf
 $ENDCMP
 #
 $CMP MAX3316-SSOP
 D 2.5V, 1μA, 460kbps, RS-232-Compatible Transceivers
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/MAX_MAX3316-MAX3319.pdf
 $ENDCMP
 #
 $CMP MAX3316-TSSOP
 D 2.5V, 1μA, 460kbps, RS-232-Compatible Transceivers
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/MAX_MAX3316-MAX3319.pdf
 $ENDCMP
 #
 $CMP MAX3317
 D 2.5V, 1μA, 460kbps, RS-232-Compatible Transceivers
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/MAX_MAX3316-MAX3319.pdf
 $ENDCMP
 #
 $CMP MAX3318
 D 2.5V, 1μA, 460kbps, RS-232-Compatible Transceivers
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/MAX_MAX3316-MAX3319.pdf
 $ENDCMP
 #
 $CMP MAX3319
 D 2.5V, 1μA, 460kbps, RS-232-Compatible Transceivers
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/MAX_MAX3316-MAX3319.pdf
 $ENDCMP
 #
 $CMP MAX485
@@ -172,40 +187,33 @@ $ENDCMP
 $CMP MCP23017-DIL
 D 16bit I/O expander with I2C interface
 K MCP23017
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/MCIP_MCP23S17.pdf
 $ENDCMP
 #
 $CMP MCP23017-QFN
 D 16bit I/O expander with I2C interface
 K MCP23017
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/MCIP_MCP23S17.pdf
 $ENDCMP
 #
 $CMP MCP23S17-DIL
 D 16bit I/O expander with SPI interface
 K MCP23S17
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/MCIP_MCP23S17.pdf
 $ENDCMP
 #
 $CMP MCP23S17-QFN
 D 16bit I/O expander with SPI interface
 K MCP23S17
-F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/MCIP_MCP23S17.pdf
 $ENDCMP
 #
 $CMP MCP2551
 D CAN BUS Transceiver
-F /home/walter/Documents/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/RTX/MCIP_MCP2551.pdf
 $ENDCMP
 #
 $CMP PCA9306-BGA
 D Dual bidirectional I2C bus and SMBus Voltage-Level translator
-F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Drivers/TI_PCA9306.pdf
 $ENDCMP
 #
 $CMP PCA9306-DIL
 D Dual bidirectional I2C bus and SMBus Voltage-Level translator
-F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Digitali/Drivers/TI_PCA9306.pdf
 $ENDCMP
 #
 $CMP PCF8574
