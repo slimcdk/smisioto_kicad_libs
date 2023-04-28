@@ -1,7 +1,7 @@
 (module inductor_smd_8x5mm (layer F.Cu) (tedit 6326D47B)
   (descr "Inductor SMD, d.8mm x h.5mm")
   (attr smd)
-  (fp_text reference L*** (at 0 -5) (layer F.SilkS)
+  (fp_text reference L? (at 0 -5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (fp_text value inductor_smd_8x5mm (at 0 5) (layer F.SilkS)

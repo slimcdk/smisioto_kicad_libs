@@ -1,7 +1,7 @@
 (module inductor_smd_ser2900 (layer F.Cu) (tedit 6327E87A)
   (descr "Inductor SMD, Coilcraft SER2900 series")
   (attr smd)
-  (fp_text reference L*** (at 0 -12.6) (layer F.SilkS)
+  (fp_text reference L? (at 0 -12.6) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (fp_text value inductor_smd_ser2900 (at 0 18.9) (layer F.SilkS)

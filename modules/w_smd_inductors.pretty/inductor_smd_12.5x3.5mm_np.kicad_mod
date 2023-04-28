@@ -1,7 +1,7 @@
 (module inductor_smd_12.5x3.5mm_np (layer F.Cu) (tedit 6326D49E)
   (descr "SMD inductor, d.12.5mm x h.3.5mm narrow pads, Vishay IHLP-5050CE-01")
   (attr smd)
-  (fp_text reference L*** (at 0 -8.5) (layer F.SilkS)
+  (fp_text reference L? (at 0 -8.5) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (fp_text value inductor_smd_12.5x3.5mm_np (at 0 8.5) (layer F.SilkS)

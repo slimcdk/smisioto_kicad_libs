@@ -1,7 +1,7 @@
 (module choke_smd_dlw5bs (layer F.Cu) (tedit 57125BCB)
   (descr "Common-mode choke SMD, Murata DLW5BS")
   (attr smd)
-  (fp_text reference EM*** (at 0 -3.7) (layer F.SilkS)
+  (fp_text reference EM? (at 0 -3.7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (fp_text value Choke_SMD_DLW5BS (at 0 3.7) (layer F.SilkS)

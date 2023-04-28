@@ -1,7 +1,7 @@
 (module inductor_smd_6x4.3mm (layer F.Cu) (tedit 571E56C8)
   (descr "Inductor SMD, 6mm x h.4,3mm, Murata LQH6PP")
   (attr smd)
-  (fp_text reference L*** (at 0 -4.2) (layer F.SilkS)
+  (fp_text reference L? (at 0 -4.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (fp_text value inductor_smd_6x4.3mm (at 0 4.2) (layer F.SilkS)

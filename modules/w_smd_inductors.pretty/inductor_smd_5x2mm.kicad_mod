@@ -1,7 +1,7 @@
 (module inductor_smd_5x2mm (layer F.Cu) (tedit 55AF5782)
   (descr "Inductor SMD, 5mm x h.2mm, Wurth LQS")
   (attr smd)
-  (fp_text reference L*** (at 0 -3.7) (layer F.SilkS)
+  (fp_text reference L? (at 0 -3.7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (fp_text value inductor_smd_5x2mm (at 0 3.7) (layer F.SilkS)

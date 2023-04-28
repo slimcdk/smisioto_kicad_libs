@@ -1,7 +1,7 @@
 (module inductor_smd_0805 (layer F.Cu) (tedit 6326D56E)
   (descr "Inductor SMD, 0805")
   (attr smd)
-  (fp_text reference L*** (at 0 -1.8) (layer F.SilkS)
+  (fp_text reference L? (at 0 -1.8) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.14)))
   )
   (fp_text value inductor_smd_0805 (at 0 1.8) (layer F.SilkS)

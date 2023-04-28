@@ -1,7 +1,7 @@
 (module inductor_smd_10.4x4.8mm (layer F.Cu) (tedit 571DDF84)
   (descr "Inductor SMD, 10.4mm x h.4.8mm, Epcos B82464P4")
   (attr smd)
-  (fp_text reference L*** (at 0 -6.4) (layer F.SilkS)
+  (fp_text reference L? (at 0 -6.4) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (fp_text value inductor_smd_10.4x4.8mm (at 0 6.4) (layer F.SilkS)

@@ -1,7 +1,7 @@
 (module inductor_smd_6.8x3.8mm (layer F.Cu) (tedit 6326D41F)
   (descr "Inductor SMD, 6.8x6.8mm x h.3.8mm, Bourns SRR6038")
   (attr smd)
-  (fp_text reference L*** (at 0 -5) (layer F.SilkS)
+  (fp_text reference L? (at 0 -5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (fp_text value inductor_smd_6.8x3.8mm (at 0 5) (layer F.SilkS)

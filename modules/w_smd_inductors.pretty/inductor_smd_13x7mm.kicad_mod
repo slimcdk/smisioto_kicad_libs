@@ -1,7 +1,7 @@
 (module inductor_smd_13x7mm (layer F.Cu) (tedit 62CAD5A9)
   (descr "Inductor SMD, d.13mm x h.7mm, Bourns SDR1307A series")
   (attr smd)
-  (fp_text reference L*** (at 0 -8.2) (layer F.SilkS)
+  (fp_text reference L? (at 0 -8.2) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (fp_text value inductor_smd_13x7mm (at 0 8.2) (layer F.SilkS)

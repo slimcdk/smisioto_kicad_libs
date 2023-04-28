@@ -1,7 +1,7 @@
 (module inductor_smd_0402 (layer F.Cu) (tedit 6326D4FB)
   (descr "Inductor SMD, 0402")
   (attr smd)
-  (fp_text reference L*** (at 0 -1) (layer F.SilkS)
+  (fp_text reference L? (at 0 -1) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
   (fp_text value inductor_smd_0402 (at 0 1) (layer F.SilkS)
